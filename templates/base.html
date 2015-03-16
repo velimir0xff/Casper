@@ -150,7 +150,7 @@
     <div class="site-wrapper">
         <header class="main-header {% if article %}post-head{% endif %}" style="background-image: url({{ SITEURL }}/theme/images/{% if article %}bear.jpg{% else %}banner-bg.jpg{% endif %})" itemscope itemtype="http://schema.org/WPHeader">
             {% if article %}
-            <nav class="pagination" role="navigation">
+            <nav class="main-nav overlay clearfix" role="navigation">
                 <a class="newer-posts" href="{{ SITEURL }}">&larr; Back</a>
             </nav>
             {% else %}

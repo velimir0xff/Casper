@@ -149,21 +149,12 @@
     <meta itemprop="inLanguage" content="es">
     <div class="site-wrapper">
         <header class="main-header {% if article %}post-head{% endif %}" style="background-image: url({{ SITEURL }}/theme/images/{% if article %}bear.jpg{% else %}banner-bg.jpg{% endif %})" itemscope itemtype="http://schema.org/WPHeader">
-            {% if article %}
-            <nav class="main-nav overlay clearfix hide">
-                <a class="menu-button" href="#">
-                    <span class="burger">&laquo;</span>
-                    <span class="word">Menu</span>
-                </a>
-            </nav>
-            {% else %}
-            <nav class="main-nav overlay clearfix">
+            <nav class="main-nav overlay clearfix {% if article %}hide{% endif%}">
                 <a class="menu-button" href="#">
                     <span class="burger">&#9776;</span>
                     <span class="word">Menu</span>
                 </a>
             </nav>
-            {% endif %}
             <div class="vertical">
                 <div class="main-header-content inner">
                     <h1 class="page-title" itemprop="headline">{{ SITENAME }}</h1>

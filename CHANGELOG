@@ -1,3 +1,9 @@
+commit 8a6886cc509d60d06bd5729d96b2e1247093e878
+Author: abr4xas <me@abr4xas.org>
+Date:   Sun Mar 22 19:10:16 2015 -0430
+
+    actualizando templates/base.html fix typo
+
 commit fd31cd57a11ab98821f8ab06083af60cd139e682
 Author: abr4xas <me@abr4xas.org>
 Date:   Sun Mar 22 19:08:06 2015 -0430

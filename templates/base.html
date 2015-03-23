@@ -149,7 +149,7 @@
     <meta itemprop="inLanguage" content="es">
     {% include 'navigation.html' %}
     <div class="site-wrapper">
-        <header class="main-header {% if article %}post-head{% endif %}{% if page %}post-head {% endif %}" style="background-image: url({{ SITEURL }}/theme/images/{% if article %}bear.jpg{% endif %}{% if page_name == 'about'%}about.jpg{% endif %}{% elif page_name == 'contribute' %}collaboration.png{% else %}banner-bg.jpg{% endif %})" itemscope itemtype="http://schema.org/WPHeader">
+        <header class="main-header {% if article %}post-head{% endif %}{% if page %}post-head {% endif %}" style="background-image: url({{ SITEURL }}/theme/images/{% if article %}bear.jpg{% endif %}{% if page_name == 'about'%}about.jpg{% endif %}{% if page_name == 'contribute' %}collaboration.png{% else %}banner-bg.jpg{% endif %})" itemscope itemtype="http://schema.org/WPHeader">
             <nav class="main-nav overlay clearfix {% if article %}hide{% endif %}">
                 <a class="menu-button" href="#">
                     <span class="burger">&#9776;</span>

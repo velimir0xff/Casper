@@ -204,7 +204,7 @@ body:not(.post-template) .post-title{font-size:3.6rem;}
 .user-bio{display:block;max-width:440px;font-size:1.4rem;line-height:1.5em;}
 .publish-meta{position:absolute;top:0;right:0;padding:4.3rem 0 4rem 0;text-align:right;}
 .publish-heading{display:block;font-weight:700;}
-.publish-date{display:block;font-size:1.4rem;line-height:1.5em;}
+.publish-date{display:block;font-size:1.4rem;line-height:1.5em;}img[src*="/emojis/"]{border:0;padding: 0;height: 1em;vertical-align: baseline;}
 .post-template .post-header{margin-bottom:3.4rem;}
 .post-template .post-title{margin-bottom:0;}
 .post-template .post-meta{margin:0;}

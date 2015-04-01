@@ -1031,7 +1031,13 @@ body:not(.post-template) .post-title {
     font-size: 1.4rem;
     line-height: 1.5em;
 }
-
+/* Emojis */
+img[src*="/emojis/"] {
+border: 0;
+padding: 0;
+height: 1em;
+vertical-align: baseline;
+}
 
 /* ==========================================================================
    5. Single Post - When you click on an individual post

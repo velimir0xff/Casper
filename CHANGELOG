@@ -1,3 +1,15 @@
+commit 9bb73be1f571623e1ad5c1949607e4b63a59f94d
+Author: abr4xas <me@abr4xas.org>
+Date:   Tue Mar 31 20:59:48 2015 -0430
+
+    Actualizando plantilla, agregando soporte a emojis
+
+commit 5d1de7d6db812334666901b2dde3c34dacfbc030
+Author: abr4xas <me@abr4xas.org>
+Date:   Sun Mar 22 20:25:46 2015 -0430
+
+    actualizando templates/base.html
+
 commit 88aec4e00d51da1e89ad32ee23ccc034f90d6aab
 Author: abr4xas <me@abr4xas.org>
 Date:   Sun Mar 22 20:23:01 2015 -0430

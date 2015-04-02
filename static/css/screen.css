@@ -1031,13 +1031,6 @@ body:not(.post-template) .post-title {
     font-size: 1.4rem;
     line-height: 1.5em;
 }
-/* Emojis */
-img[src*="/emojis/"] {
-border: 0;
-padding: 0;
-height: 1em;
-vertical-align: baseline;
-}
 
 /* ==========================================================================
    5. Single Post - When you click on an individual post
@@ -1084,7 +1077,7 @@ vertical-align: baseline;
    text column to break out. */
 .post-content img {
     display: block;
-    max-width: 126%;
+    max-width: 100%;
     height: auto;
     padding: 0.6em 0;
     /* Centers an image by (1) pushing its left edge to the

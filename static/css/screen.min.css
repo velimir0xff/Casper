@@ -204,7 +204,7 @@ body:not(.post-template) .post-title{font-size:3.6rem;}
 .user-bio{display:block;max-width:440px;font-size:1.4rem;line-height:1.5em;}
 .publish-meta{position:absolute;top:0;right:0;padding:4.3rem 0 4rem 0;text-align:right;}
 .publish-heading{display:block;font-weight:700;}
-.publish-date{display:block;font-size:1.4rem;line-height:1.5em;}img[src*="/emojis/"]{border:0;padding: 0;height: 1em;vertical-align: baseline;}
+.publish-date{display:block;font-size:1.4rem;line-height:1.5em;}
 .post-template .post-header{margin-bottom:3.4rem;}
 .post-template .post-title{margin-bottom:0;}
 .post-template .post-meta{margin:0;}
@@ -212,7 +212,7 @@ body:not(.post-template) .post-title{font-size:3.6rem;}
 .post-template .content{overflow:hidden;}
 .post-template .post{margin-top:0;border-bottom:none;padding-bottom:0;}
 .post-template .post:after{display:none;}
-.post-content img{display:block;max-width:126%;height:auto;padding:0.6em 0;position:relative;left:50%;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}
+.post-content img{display:block;max-width:100%;height:auto;padding:0.6em 0;position:relative;left:50%;-webkit-transform:translateX(-50%);-ms-transform:translateX(-50%);transform:translateX(-50%);}
 .post-footer{position:relative;margin:6rem 0 0 0;padding:6rem 0 0 0;border-top:#EBF2F6 1px solid;}
 .post-footer h4{font-size:1.8rem;margin:0;}
 .post-footer p{margin:1rem 0;font-size:1.4rem;line-height:1.75em;}

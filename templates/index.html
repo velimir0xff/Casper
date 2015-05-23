@@ -1,9 +1,6 @@
 {% extends "base.html" %}
 {% block content %}
 <main id="content" class="content" role="main" itemprop="mainContentOfPage" itemscope="" itemtype="http://schema.org/Blog">
-    <div class="extra-pagination inner">
-        <div id="adsadpv42425"></div><script type="text/javascript"><!-- var adpv_client = "42425"; var adpv_width = 468; var adpv_height = 60; var adpv_container_id = "adsadpv42425"; //--></script> <script type="text/javascript" src="http://ads.adpv.com/ads.js"></script>
-    </div>
     {% for article in articles_page.object_list %}
         <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
             <header class="post-header" itemprop="headline">

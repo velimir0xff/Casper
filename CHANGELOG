@@ -1,16 +1,96 @@
-<<<<<<< HEAD
+commit 168c6ace5162f1b5013a1cf45df46105eff565a5
+Author: ángel <abr4xas@users.noreply.github.com>
+Date:   Sun May 31 17:06:25 2015 -0430
+
+    Update navigation.html
+
+commit 8ce6dee6c48e563cd2ca7071afe46ad976dbdf4c
+Author: ángel <abr4xas@users.noreply.github.com>
+Date:   Sun May 31 17:06:02 2015 -0430
+
+    Update base.html
+
+commit 71b2d132cf925d99bb96b61ce0e484bc31e00e3c
+Author: abr4xas <me@abr4xas.org>
+Date:   Sat May 23 16:36:12 2015 -0430
+
+    actualizado
+
+commit cec15a51c2c5f26384156592c8a0227446aca63d
+Merge: 721c578 b6d64b2
+Author: abr4xas <me@abr4xas.org>
+Date:   Mon Apr 13 22:20:18 2015 -0430
+
+    Merge branch 'master' of https://github.com/abr4xas/Casper2Pelican
+    
+    Conflicts:
+    	static/.htaccess
+
+commit 721c5780a09ca82655e492e49bf6ee0f157649e2
+Author: abr4xas <me@abr4xas.org>
+Date:   Mon Apr 13 22:16:12 2015 -0430
+
+    modificado
+
+commit b6d64b2859a5c9c71a9b32fd503efc4ff8705a98
+Author: ángel <abr4xas@users.noreply.github.com>
+Date:   Sat Apr 11 16:41:41 2015 -0430
+
+    Update base.html
+    
+    Use minimal-ui in viewport meta tag / http://www.therightcode.net/use-minimal-ui-in-viewport-meta-tag/
+
+commit 3e6accc9ac9c4e8395d61084ea01d0695cabc4e4
+Author: ángel <abr4xas@users.noreply.github.com>
+Date:   Sat Apr 11 14:24:32 2015 -0430
+
+    Update .htaccess
+
+commit 41d662c947deebdb3cc099a837fbbe5062299412
+Author: ángel <abr4xas@users.noreply.github.com>
+Date:   Fri Apr 10 23:09:17 2015 -0430
+
+    Update coments.html
+
+commit cfc14a67b56018b672b5dc8e3df6444023d7eb34
+Author: abr4xas <me@abr4xas.org>
+Date:   Mon Apr 6 22:16:51 2015 -0430
+
+    actualizado codigo publicitario
+
+commit e78dd46294a8ee485cb17596c5330ea7b0440a4a
+Merge: 61f9b5b 43b34ab
+Author: abr4xas <me@abr4xas.org>
+Date:   Mon Apr 6 22:09:17 2015 -0430
+
+    Merge branch 'master' of github.com:abr4xas/Casper2Pelican
+    
+    Conflicts:
+    	CHANGELOG
+
+commit 61f9b5b229318cc40892f7b40936e8be2ce0690c
+Author: abr4xas <me@abr4xas.org>
+Date:   Mon Apr 6 22:08:30 2015 -0430
+
+    Agregada publicidad de adpv
+
 commit 2388137a25660dd719305b0ba4dab3382eaf0b42
 Author: abr4xas <me@abr4xas.org>
 Date:   Mon Apr 6 22:07:58 2015 -0430
 
     agregado publicidad adpv
-=======
+
+commit 43b34ab6bcea3aed6a2de53e7977102a0dfb5351
+Author: abr4xas <me@abr4xas.org>
+Date:   Thu Apr 2 20:23:36 2015 -0430
+
+    modificado
+
 commit 76b2e3fb37054652f8c083175984a84cd98de1c1
 Author: abr4xas <me@abr4xas.org>
 Date:   Thu Apr 2 20:23:15 2015 -0430
 
     modificado
->>>>>>> 43b34ab6bcea3aed6a2de53e7977102a0dfb5351
 
 commit 28f0aadb2636215f75c32503f4ba7c3154896cf3
 Author: abr4xas <me@abr4xas.org>

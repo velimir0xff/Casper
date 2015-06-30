@@ -18,6 +18,7 @@
     <link rel="dns-prefetch" href="//www.google-analytics.com"/>
     <link rel="dns-prefetch" href="//googleads.g.doubleclick.net"/>
     <link rel="dns-prefetch" href="//pagead2.googlesyndication.com"/>
+    <link rel="dns-prefetch" href="//twemoji.maxcdn.com"/>
     <meta http-equiv="content-type" content="text/html;charset=utf-8">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
     <meta name="apple-mobile-web-app-capable" content="yes"/>
@@ -27,7 +28,7 @@
     <meta name="msapplication-window" content="width=1024;height=768"/>
     <meta name="msapplication-task" content="name={{ SITENAME }};action-uri=http:{{ SITEURL }};icon-uri={{ SITEURL }}/theme/images/favicon.ico"/>
     <meta name="msapplication-TileImage" content="{{ SITEURL }}/theme/images/apple-touch-icon-144x144.png"/>
-    <meta name="msapplication-TileColor" content="#1F1F21"/>    
+    <meta name="msapplication-TileColor" content="#1F1F21"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta http-equiv="imagetoolbar" content="no">
     <meta http-equiv="pragma" content="cache">
@@ -42,7 +43,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="google-site-verification" content="{{ GOOGLE_SV }}">
-    <meta name="alexaVerifyID" content="{{ ALEXA }}"/> 
+    <meta name="alexaVerifyID" content="{{ ALEXA }}"/>
     <meta name="wot-verification" content="{{ MY_WOT }}"/>
     <meta name="msvalidate.01" content="{{ MSVALIDATE }}" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
@@ -72,7 +73,7 @@
     <link rel="dns-prefetch" href="//disqus.com"/>
     <link rel="dns-prefetch" href="//a.disquscdn.com"/>
     <link rel="dns-prefetch" href="//{{ DISQUS_SITENAME }}.disqus.com"/>
-    <link rel="dns-prefetch" href="//glitter-services.disqus.com"/>    
+    <link rel="dns-prefetch" href="//glitter-services.disqus.com"/>
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="300">
     <meta property="og:image:height" content="300">
@@ -145,7 +146,7 @@
     <meta property="og:image:height" content="300">
     {% endif %}
     {% endif %}
-{% endif %}    
+{% endif %}
 {% if FEED_RSS %}
     <link href="{{ FEED_RSS }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} RSS Feed">
 {% endif %}
@@ -164,6 +165,7 @@
     <link rel="icon" type="image/png" href="{{ SITEURL }}/theme/images/favicon-16x16.png" sizes="16x16">
     <link rel="shortcut icon" href="{{ SITEURL }}/theme/images/favicon.ico">
     <script type="text/javascript">(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', '{{GOOGLE_ANALYTICS}}', 'auto');ga('send', 'pageview');var _qevents = _qevents || [];</script>
+    <script src="//twemoji.maxcdn.com/twemoji.min.js"></script>
 </head>
 <body class="home-template nav-closed" itemscope itemtype="http://schema.org/WebPage">
     <meta itemprop="name" content="{{ SITENAME }}">
@@ -205,5 +207,6 @@
     <script type="text/javascript" src="{{ SITEURL }}/theme/js/jquery-1.11.2.min.js"></script>
     <script type="text/javascript" src="{{ SITEURL }}/theme/js/jquery.fitvids.min.js"></script>
     <script type="text/javascript" src="{{ SITEURL }}/theme/js/index.min.js"></script>
-</body>    
+    <script>twemoji.parse(document, {"size":16});</script>
+</body>
 </html>

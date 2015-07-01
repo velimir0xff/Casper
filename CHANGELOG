@@ -1,2418 +1,467 @@
-commit 19e79c6976318b3bcd407bfafe74069c79bc12b8
-Author: abr4xas <me@abr4xas.org>
-Date:   Mon Jun 29 23:00:31 2015 -0430
-
-    se agrega soporte a twemoji
-
-commit cae940fedf77dd19f8b178c31d82e4f5ef2a1f55
-Author: abr4xas <me@abr4xas.org>
-Date:   Sun May 31 17:17:01 2015 -0430
-
-    actualizado
-
-commit 168c6ace5162f1b5013a1cf45df46105eff565a5
-Author: ángel <abr4xas@users.noreply.github.com>
-Date:   Sun May 31 17:06:25 2015 -0430
-
-    Update navigation.html
-
-commit 8ce6dee6c48e563cd2ca7071afe46ad976dbdf4c
-Author: ángel <abr4xas@users.noreply.github.com>
-Date:   Sun May 31 17:06:02 2015 -0430
-
-    Update base.html
-
-commit 71b2d132cf925d99bb96b61ce0e484bc31e00e3c
-Author: abr4xas <me@abr4xas.org>
-Date:   Sat May 23 16:36:12 2015 -0430
-
-    actualizado
-
-commit cec15a51c2c5f26384156592c8a0227446aca63d
-Merge: 721c578 b6d64b2
-Author: abr4xas <me@abr4xas.org>
-Date:   Mon Apr 13 22:20:18 2015 -0430
-
-    Merge branch 'master' of https://github.com/abr4xas/Casper2Pelican
-    
-    Conflicts:
-    	static/.htaccess
-
-commit 721c5780a09ca82655e492e49bf6ee0f157649e2
-Author: abr4xas <me@abr4xas.org>
-Date:   Mon Apr 13 22:16:12 2015 -0430
-
-    modificado
-
-commit b6d64b2859a5c9c71a9b32fd503efc4ff8705a98
-Author: ángel <abr4xas@users.noreply.github.com>
-Date:   Sat Apr 11 16:41:41 2015 -0430
-
-    Update base.html
-    
-    Use minimal-ui in viewport meta tag / http://www.therightcode.net/use-minimal-ui-in-viewport-meta-tag/
-
-commit 3e6accc9ac9c4e8395d61084ea01d0695cabc4e4
-Author: ángel <abr4xas@users.noreply.github.com>
-Date:   Sat Apr 11 14:24:32 2015 -0430
-
-    Update .htaccess
-
-commit 41d662c947deebdb3cc099a837fbbe5062299412
-Author: ángel <abr4xas@users.noreply.github.com>
-Date:   Fri Apr 10 23:09:17 2015 -0430
-
-    Update coments.html
-
-commit cfc14a67b56018b672b5dc8e3df6444023d7eb34
-Author: abr4xas <me@abr4xas.org>
-Date:   Mon Apr 6 22:16:51 2015 -0430
-
-    actualizado codigo publicitario
-
-commit e78dd46294a8ee485cb17596c5330ea7b0440a4a
-Merge: 61f9b5b 43b34ab
-Author: abr4xas <me@abr4xas.org>
-Date:   Mon Apr 6 22:09:17 2015 -0430
-
-    Merge branch 'master' of github.com:abr4xas/Casper2Pelican
-    
-    Conflicts:
-    	CHANGELOG
-
-commit 61f9b5b229318cc40892f7b40936e8be2ce0690c
-Author: abr4xas <me@abr4xas.org>
-Date:   Mon Apr 6 22:08:30 2015 -0430
-
-    Agregada publicidad de adpv
-
-commit 2388137a25660dd719305b0ba4dab3382eaf0b42
-Author: abr4xas <me@abr4xas.org>
-Date:   Mon Apr 6 22:07:58 2015 -0430
-
-    agregado publicidad adpv
-
-commit 43b34ab6bcea3aed6a2de53e7977102a0dfb5351
-Author: abr4xas <me@abr4xas.org>
-Date:   Thu Apr 2 20:23:36 2015 -0430
-
-    modificado
-
-commit 76b2e3fb37054652f8c083175984a84cd98de1c1
-Author: abr4xas <me@abr4xas.org>
-Date:   Thu Apr 2 20:23:15 2015 -0430
-
-    modificado
-
-commit 28f0aadb2636215f75c32503f4ba7c3154896cf3
-Author: abr4xas <me@abr4xas.org>
-Date:   Thu Apr 2 15:49:05 2015 -0430
-
-    Actualizado
-
-commit 9f62192d0700ee4055ca5424af59097bde33c1ae
-Author: abr4xas <me@abr4xas.org>
-Date:   Thu Apr 2 15:48:36 2015 -0430
-
-    Actualizado
-
-commit a311a40419dae078d0be49a7146a2831ea0022f4
-Author: abr4xas <me@abr4xas.org>
-Date:   Tue Mar 31 21:00:40 2015 -0430
-
-    Actualizando plantilla, agregando soporte a emojis
-
-commit 9bb73be1f571623e1ad5c1949607e4b63a59f94d
-Author: abr4xas <me@abr4xas.org>
-Date:   Tue Mar 31 20:59:48 2015 -0430
-
-    Actualizando plantilla, agregando soporte a emojis
-
-commit 5d1de7d6db812334666901b2dde3c34dacfbc030
-Author: abr4xas <me@abr4xas.org>
-Date:   Sun Mar 22 20:25:46 2015 -0430
-
-    actualizando templates/base.html
-
-commit 88aec4e00d51da1e89ad32ee23ccc034f90d6aab
-Author: abr4xas <me@abr4xas.org>
-Date:   Sun Mar 22 20:23:01 2015 -0430
-
-    actualizando templates/base.html
-
-commit f064b1d5e62f1fcea031e745b7b15018ea71c8e7
-Author: abr4xas <me@abr4xas.org>
-Date:   Sun Mar 22 20:05:15 2015 -0430
-
-    actualizando templates/base.html
-
-commit f3baece1dee0a261338c81f588b34002417d0072
-Author: abr4xas <me@abr4xas.org>
-Date:   Sun Mar 22 20:00:19 2015 -0430
-
-    actualizando templates/base.html fix typo
-
-commit 3c15de345f0d0b5aaed0e1123fa949f517d077fc
-Author: abr4xas <me@abr4xas.org>
-Date:   Sun Mar 22 19:58:53 2015 -0430
-
-    actualizando templates/base.html fix typo
-
-commit f820a2440c7b849f9050c80f469e4052677f00d8
-Author: abr4xas <me@abr4xas.org>
-Date:   Sun Mar 22 19:57:23 2015 -0430
-
-    actualizando templates/base.html
-
-commit 0fc16caac9a19b28607d96f567e35e8c0f6d76f0
-Author: abr4xas <me@abr4xas.org>
-Date:   Sun Mar 22 19:37:09 2015 -0430
-
-    actualizando templates/base.html
-
-commit a4b27e8517dd1541d8574a70e78e1354b7f6de50
-Author: abr4xas <me@abr4xas.org>
-Date:   Sun Mar 22 19:35:26 2015 -0430
-
-    actualizando templates/base.html
-
-commit 1c5ca823fce7c387d0134a0f906b1ac1512956f4
-Author: abr4xas <me@abr4xas.org>
-Date:   Sun Mar 22 19:17:31 2015 -0430
-
-    actualizando templates/base.html
-
-commit 8a6886cc509d60d06bd5729d96b2e1247093e878
-Author: abr4xas <me@abr4xas.org>
-Date:   Sun Mar 22 19:10:16 2015 -0430
-
-    actualizando templates/base.html fix typo
-
-commit fd31cd57a11ab98821f8ab06083af60cd139e682
-Author: abr4xas <me@abr4xas.org>
-Date:   Sun Mar 22 19:08:06 2015 -0430
-
-    actualizando templates/base.html
-
-commit 6cc828744de725daaa86e1300202b7ae49d730cf
-Author: abr4xas <me@abr4xas.org>
-Date:   Sun Mar 22 18:07:35 2015 -0430
-
-    actualizando templates/articles.html
-
-commit 596821337b451914986eedc40f1c37e79f887238
-Author: ángel <abr4xas@users.noreply.github.com>
-Date:   Sat Mar 21 19:57:04 2015 -0430
-
-    Update article.html
-    
-    Code School Affiliate Program
-
-commit c6d4572e0b1c0a9b7caee1b3b4eb464199941ba9
-Author: abr4xas <me@abr4xas.org>
-Date:   Mon Mar 16 15:30:04 2015 -0430
-
-    actualizando plantilla
-
-commit 692e5229f10fd7114a4b3fa39168ba15514fce72
-Author: abr4xas <me@abr4xas.org>
-Date:   Mon Mar 16 15:14:38 2015 -0430
-
-    actualizando plantilla
-
-commit 1a706b5209d46c1b4fe85903f5ebc09aa498523e
-Author: abr4xas <me@abr4xas.org>
-Date:   Mon Mar 16 15:10:50 2015 -0430
-
-    actualizando plantilla
-
-commit fd18d411a6400a7a2618ced1bbe8b7b1e5333476
-Author: abr4xas <me@abr4xas.org>
-Date:   Mon Mar 16 15:01:51 2015 -0430
-
-    actualizando plantilla
-
-commit 9d5e01fe4de06c1cf4bab8c783a9fa023ea11d93
-Author: abr4xas <me@abr4xas.org>
-Date:   Mon Mar 16 14:47:58 2015 -0430
-
-    actualizando plantilla
-
-commit 5eef1abab9d6eb2a39ea2065c95ebff9714e2456
-Author: abr4xas <me@abr4xas.org>
-Date:   Mon Mar 16 14:47:02 2015 -0430
-
-    actualizando plantilla
-
-commit b10c9d85adc2635aebf0d8c4f6596c78f9959008
-Author: abr4xas <me@abr4xas.org>
-Date:   Mon Mar 16 14:46:11 2015 -0430
-
-    actualizando plantilla
-
-commit 9e33a6104ebb1a81c8fd933815e4e1a072f8a837
-Author: abr4xas <me@abr4xas.org>
-Date:   Mon Mar 16 14:34:51 2015 -0430
-
-    actualizando plantilla
-
-commit 4ebbfe840f09a1c847f599966b6d304780f5a390
-Author: abr4xas <me@abr4xas.org>
-Date:   Mon Mar 16 14:31:22 2015 -0430
-
-    actualizando plantilla
-
-commit ac4db335af348a13fe080f5ffc96511327decbc9
-Author: abr4xas <me@abr4xas.org>
-Date:   Mon Mar 16 14:25:08 2015 -0430
-
-    actualizando plantilla
-
-commit a4efde19c90a0d16f4e7d0745116bc6a46d07307
-Author: abr4xas <me@abr4xas.org>
-Date:   Mon Mar 16 14:23:40 2015 -0430
-
-    actualizando plantilla
-
-commit ec1dfc0ef3631e83f228acfadecef648549b92c3
-Author: abr4xas <me@abr4xas.org>
-Date:   Mon Mar 16 14:19:13 2015 -0430
-
-    actualizando plantilla
-
-commit 92df897b343e01c08f9fc2b34d938e701711882d
-Author: abr4xas <me@abr4xas.org>
-Date:   Mon Mar 16 14:13:07 2015 -0430
-
-    actualizando plantilla
-
-commit 00ff26cdbb5a6fbdf65be11e0876d68608e1fdcd
-Author: abr4xas <me@abr4xas.org>
-Date:   Mon Mar 16 13:23:03 2015 -0430
-
-    actualizando plantilla
-
-commit 6b55a3ffd66bc31574e5f652967cfbc2e05c3100
-Author: abr4xas <me@abr4xas.org>
-Date:   Fri Mar 13 09:56:27 2015 -0430
-
-    update repo
-
-commit 13cced205a270c114ce19f3575295879c2e5fdc9
-Author: abr4xas <me@abr4xas.org>
-Date:   Fri Mar 13 09:49:13 2015 -0430
-
-    Casper2Jinja
-
-commit d66090dd43cddbf1c2f11f65424905a3941b06a3
-Author: abr4xas <me@abr4xas.org>
-Date:   Fri Mar 13 09:47:51 2015 -0430
-
-    Casper 2 Jinja
-
-commit 1b86190c4d21f60f19cac154a0bd106562a0dd0b
-Author: Hannah Wolfe <erisds@gmail.com>
-Date:   Mon Mar 9 17:51:54 2015 +0000
-
-    Upgrading Casper to 1.1.7
-
-commit 37d7d0b4f0f3c7faf1bc6b2bca5369efdf73d6b3
-Author: John O'Nolan <john@ghost.org>
-Date:   Mon Mar 9 16:05:25 2015 +0200
-
-    Sexier animation timing on menu
-
-commit 329dfef4103eeb84494e1f58c85014a208ceea5c
-Merge: dffc9f3 baea6bb
-Author: John O'Nolan <john@ghost.org>
-Date:   Thu Mar 5 23:10:35 2015 +0200
-
-    Merge pull request #185 from novaugust/master
-    
-    Fix transition property
-
-commit baea6bb2fd72491ed6a90ba852de2d0309a4c383
-Author: Matt Enlow <matt@divaos.com>
-Date:   Thu Mar 5 14:08:04 2015 -0700
-
-    Fix transition property
-
-commit dffc9f3cb369ecb705b4a9b95395665fd5803323
-Merge: dcfddac 7f42eaa
-Author: John O'Nolan <john@ghost.org>
-Date:   Wed Mar 4 11:37:44 2015 +0200
-
-    Merge pull request #183 from tomkwok/patch-1
-    
-    Add -ms- prefix for IE9
-
-commit 7f42eaabfef4a3de62d717cf5f1859d30ca791d8
-Author: Tom Kwok <contact@tomkwok.com>
-Date:   Wed Mar 4 17:33:35 2015 +0800
-
-    Add -ms- prefix for IE9
-
-commit dcfddacfa1e4c04ae3161676afcca7e05372fd0f
-Merge: 9339635 031ac1f
-Author: John O'Nolan <john@ghost.org>
-Date:   Wed Mar 4 11:13:00 2015 +0200
-
-    Merge pull request #182 from mankittens/master
-    
-    Prefixed second instance of tt with pre
-
-commit 031ac1fb40038838ce1d08f8517ae9397bc2ea9f
-Author: Matthew Guy <me@mattguy.me>
-Date:   Wed Mar 4 03:50:52 2015 -0500
-
-    Prefixed second instance of tt with pre
-
-commit 9339635abd166c54ba8dab0c6270901ab2f4b927
-Merge: 7af816a 0d3bafd
-Author: John O'Nolan <john@ghost.org>
-Date:   Mon Mar 2 18:04:15 2015 +0200
-
-    Merge pull request #181 from PaulAdamDavis/fix-nav-overflow
-    
-    Fix menu button overflow
-
-commit 0d3bafde1e54b6851b40a83fb1c1caed90292542
-Author: Paul Adam Davis <pauladamdavis@gmail.com>
-Date:   Mon Mar 2 14:00:20 2015 +0000
-
-    Fix menu button overflow
-    
-    References #180
-    
-    - Adds `overflow-x: hidden` to `.site-wrapper` when navigation is open to prevent the menu button flowing into the navigation & covering the 'Menu' title text in Firefox.
-
-commit 7af816a48e3fe4bff0e34d48915349e15a4abcbf
-Merge: e59dcaa a5dcaf6
-Author: John O'Nolan <john@ghost.org>
-Date:   Mon Mar 2 09:32:12 2015 +0200
-
-    Merge pull request #172 from mankittens/master
-    
-    Improvement to .post-content .full-img
-
-commit a5dcaf6cd5ceb2fd1d8be8db3c8c6b39b8687ba6
-Author: Matthew Guy <me@mattguy.me>
-Date:   Wed Feb 18 23:46:35 2015 -0500
-
-    Removed references to .full-img, debounce, and smartresize, and replaced with pure CSS
-    
-    issue #172
-    New code will center all post images and allow them to extend beyond the main text column. No JavaScript or special classes required.
-
-commit e59dcaa256b07b7c63492c6d0f8792c9bc8376ea
-Author: John O'Nolan <john@ghost.org>
-Date:   Sun Mar 1 08:51:38 2015 +0200
-
-    Fix vertical height bug
-    
-    Introduced in @46dc55769e5f11bddde77ae131f0cb24f82fd9ea - vh is incompatible with % - all references to height needed to be updated in order for this to work correctly
-
-commit 8b35959ff6af9e8a449b200016e7b9a1cfa66041
-Author: John O'Nolan <john@ghost.org>
-Date:   Sun Mar 1 08:25:35 2015 +0200
-
-    Update Nav position
-    
-    Fixes #178
-
-commit 94422fffe2589ec919f5e37f548874fd29dba1bf
-Author: Hannah Wolfe <erisds@gmail.com>
-Date:   Sat Feb 28 16:15:47 2015 +0000
-
-    Upgrading Casper to 1.1.6
-
-commit 47e0b195625cf9406f79a501e861bbefb933c9be
-Merge: 8e220b0 8ec65a4
-Author: Hannah Wolfe <github.erisds@gmail.com>
-Date:   Sat Feb 28 15:54:15 2015 +0000
-
-    Merge pull request #177 from ErisDS/global-nav
-    
-    Switch navigation to be global
-
-commit 8ec65a45e40d06b3594ac5e3973fb854c5e4d22c
-Author: Hannah Wolfe <erisds@gmail.com>
-Date:   Sat Feb 28 13:00:15 2015 +0000
-
-    Switch navigation to be global
-
-commit 8e220b089be332ae553be52164af6477884f3595
-Author: John O'Nolan <john@ghost.org>
-Date:   Sat Feb 28 16:07:43 2015 +0200
-
-    Fix Safari mobile bug
-    
-    Opacity: 0 on nav sidebar when closed
-
-commit e4861a0d789b5fb8cdc1b2e5994bed677348ce87
-Author: John O'Nolan <john@ghost.org>
-Date:   Sat Feb 28 14:38:01 2015 +0200
-
-    Fix for long nav items
-
-commit 243192f0d95e90051ba4ac6fa6322e1ae2d5f4fb
-Author: John O'Nolan <john@ghost.org>
-Date:   Sat Feb 28 14:34:58 2015 +0200
-
-    Updating nav styles
-
-commit c516c10383f1a1b88c943ad299e0cff397597640
-Merge: 191f5f7 46dc557
-Author: John O'Nolan <john@ghost.org>
-Date:   Sat Feb 28 11:41:15 2015 +0200
-
-    Merge pull request #175 from PaulAdamDavis/navigation
-    
-    Navigation
-
-commit 46dc55769e5f11bddde77ae131f0cb24f82fd9ea
-Author: Paul Adam Davis <pauladamdavis@gmail.com>
-Date:   Fri Feb 27 14:48:15 2015 +0000
-
-    Navigation
-
-commit 191f5f74f1db6371159a92561969f44020fea242
-Merge: 8f9a185 e559857
-Author: John O'Nolan <john@ghost.org>
-Date:   Tue Feb 24 09:44:03 2015 +0200
-
-    Merge pull request #174 from nicdutil/master
-    
-    fixed ie9 rotate issue with scroll-down arrow
-
-commit e559857b129f34d91ecc4b9dc15d90a962b9d706
-Author: nicdutil <nicolas.dutil@infocinc.com>
-Date:   Tue Feb 24 00:45:08 2015 -0500
-
-    fixed ie9 rotate issue with scroll-down arrow
-
-commit 8f9a185a80a041c3d05fd3813291a3e18d443f2f
-Merge: 70ad5bd bcb586b
-Author: John O'Nolan <john@ghost.org>
-Date:   Mon Feb 23 11:31:08 2015 +0200
-
-    Merge pull request #171 from AlexanderGalen/master
-    
-    Add geometricPrecision text-rendering on text elements to support ligatures
-
-commit bcb586b8626a87ed4426fa0e14770dee72cf7930
-Author: Alexander Carr <Alexanderc93@gmail.com>
-Date:   Wed Feb 18 15:00:09 2015 -0800
-
-    add 'text-rendering:geometricPrecision;' anywhere that seemed appropriate to support ligatures. closes #167
-
-commit 70ad5bde8b14831d55769a046bd67f3a9dc49904
-Merge: 1e6e807 b064e9f
-Author: John O'Nolan <john@ghost.org>
-Date:   Wed Feb 18 10:36:53 2015 +0200
-
-    Merge pull request #170 from mankittens/master
-    
-    Fixed transition definitions
-
-commit b064e9fc87c3208667e59b04c08c935689d51efc
-Author: Matthew Guy <me@mattguy.me>
-Date:   Wed Feb 18 03:31:26 2015 -0500
-
-    Fixed transition definitions
-    
-    Made sure durations come before timing functions.
-    
-    https://github.com/TryGhost/Casper/issues/168#issuecomment-74828463
-
-commit 1e6e807f9459e822d7f6623c55e00de23ab6cceb
-Merge: 9cf7aea 6db90c9
-Author: John O'Nolan <john@ghost.org>
-Date:   Thu Jan 22 11:17:34 2015 -0800
-
-    Merge pull request #163 from janoskk/gist_fix
-    
-    Fix gist line numbering issue #162
-
-commit 9cf7aea47cb8be41915053b2a8a3eb7042c65af5
-Merge: bc7b44f ff59109
-Author: John O'Nolan <john@ghost.org>
-Date:   Thu Jan 22 08:51:14 2015 -0800
-
-    Merge pull request #141 from rglyall/master
-    
-    Add conditional around 'bio' in author.hbs
-
-commit 6db90c9fec49c4a6a709f4f486928ce01a22b692
-Author: Janos Kasza <janoskk@codinum.com>
-Date:   Thu Jan 22 11:49:02 2015 +0100
-
-    Fix gist line numbering issue #162
-
-commit bc7b44f01bbe3f46aefd3afc09f4cf34b17b75d6
-Merge: dd4ca42 db4979d
-Author: John O'Nolan <john@ghost.org>
-Date:   Thu Jan 15 07:33:45 2015 -0800
-
-    Merge pull request #159 from crepererum/css_warnings
-    
-    Fix multiple CSS problems, mostly reported by Firefox
-
-commit db4979d32ddfe1e4793a83809532a67f2fc20afd
-Author: Marco Neumann <marco@crepererum.net>
-Date:   Thu Jan 15 14:38:24 2015 +0100
-
-    Fix multiple CSS problems, mostly reported by Firefox
-    
-     - typo: `*zoom: ...;` should be `zoom: ...;`
-     - outdated prefix: `white-space: -moz-pre-wrap;` is [not required as of Firefox 3.0](https://developer.mozilla.org/en-US/docs/Web/CSS/white-space)
-     - outdated prefix: `-moz-border-radius: ...;` is [not required as of Firefox 4.0](https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius)
-     - outdated prefix: `-webkit-border-radius: ...;` is [not required as of Chrome 4.0 and Safari 5.0](https://developer.mozilla.org/en-US/docs/Web/CSS/border-radius)
-     - outdated prefix: for `background` `-moz-radial-gradient`, `-webkit-radial-gradient` and `-webkit-gradient` is [not required as of Firefox 16, Chrome 26 and Safari 6.1](http://www.w3schools.com/Css/css3_gradients.asp)
-     - wrong attribute: `word-break: break-word;` should be `word-wrap: break-word;` (this makes sense because `hyphens: auto;` is set)
-     - missing prefix: add `-moz-hyphens: auto;`, `-ms-hyphens: auto;` and `-webkit-hyphens: auto;` to `hyphens: auto;` (other browser [do not support `auto` mode](http://caniuse.com/#feat=css-hyphens))
-
-commit dd4ca4228025aaa934ae8c3f36f2aed95db242cb
-Author: Hannah Wolfe <erisds@gmail.com>
-Date:   Mon Jan 12 17:19:44 2015 +0000
-
-    Version bump to 1.1.5
-
-commit 3bdd10a37a7f2789ff541360b68f204d809dbb34
-Merge: bf37631 56c7663
-Author: John O'Nolan <john@ghost.org>
-Date:   Mon Jan 5 07:34:08 2015 +0200
-
-    Merge pull request #155 from razzius/master
-    
-    Fix indentation in footer
-
-commit 56c766303fcbeb3740c1b8c890a8b52c7eb5347e
-Author: Razzi Abuissa <razzi53@gmail.com>
-Date:   Sun Jan 4 19:57:11 2015 -0600
-
-    Fix indentation
-
-commit bf37631aa25d804b4b583bd809b32621d23e2d07
-Author: John O'Nolan <john@ghost.org>
-Date:   Fri Jan 2 16:12:55 2015 +0200
-
-    Update copyright
-
-commit 82253b06f2d57ff2fd88a9f8ad94428b58ed8ab0
-Author: John O'Nolan <john@ghost.org>
-Date:   Tue Dec 23 14:21:53 2014 +0200
-
-    Derp
-
-commit 969a20ef6de44e8788c5550c56c762376e7e3489
-Author: John O'Nolan <john@ghost.org>
-Date:   Tue Dec 23 13:50:59 2014 +0200
-
-    Add tag mgmt support to Casper
-
-commit dbaaf955af9ba74e543031206eaff0d1d40b830c
-Author: Hannah Wolfe <erisds@gmail.com>
-Date:   Thu Dec 4 15:31:49 2014 +0000
-
-    Version bump to 1.1.3
-
-commit de94edc8a818eb74d524c15880f3faf82406b46f
-Merge: 933ebb8 1292f2e
-Author: John O'Nolan <john@ghost.org>
-Date:   Sat Nov 29 11:12:20 2014 +0100
-
-    Merge pull request #149 from conradkleinespel/master
-    
-    Support for Pastebin embeds
-
-commit 1292f2e22b5ef335103bd74638806f5edad2fc9c
-Author: Conrad Kleinespel <conradk@conradk.com>
-Date:   Sat Nov 29 00:09:46 2014 +0100
-
-    support for pastebin
-
-commit 933ebb86ca80d4ddef815f7ad00e250a2a3775d4
-Author: Hannah Wolfe <erisds@gmail.com>
-Date:   Mon Nov 17 17:24:50 2014 +0000
-
-    Version bump to 1.1.2
-
-commit cb1196630b13e845d3bf69e23035b34bb2834654
-Merge: 9a1988a bcdbdab
-Author: John O'Nolan <john@ghost.org>
-Date:   Tue Nov 11 07:34:45 2014 +0100
-
-    Merge pull request #147 from novaugust/page-fix
-    
-    Move page #post helper to encapsulate image references
-
-commit bcdbdab86171af264f99ce1bee830d16e5381806
-Author: Matt Enlow <matt@divaos.com>
-Date:   Mon Nov 10 22:02:52 2014 -0700
-
-    Move page #post helper to encapsulate image references
-    
-    Ref #143
-    - Fixes header images for static pages
-
-commit 9a1988aa6df97ac124c97e48b773ab5bb1dec479
-Merge: e264f60 e2911f2
-Author: John O'Nolan <john@ghost.org>
-Date:   Wed Oct 29 18:31:04 2014 +0100
-
-    Merge pull request #143 from cubb/master
-    
-    Fixes to visual bugs on static pages
-
-commit e2911f2d467fb77e6e540623b1e38e062b2590ec
-Author: Jakob Wells <jakobwithak@gmail.com>
-Date:   Wed Oct 29 10:14:00 2014 -0700
-
-    Changed button background fix to match post.hbs
-    
-    As per JohnONolan’s suggestion, I have edited the nav to match the code
-    in post.hbs: https://github.com/TryGhost/Casper/blob/master/post.hbs#L9
-
-commit df09b7c37572ffbcc59a09819be9429ef73fa761
-Author: Jakob Wells <jakobwithak@gmail.com>
-Date:   Wed Oct 29 09:24:31 2014 -0700
-
-    Fixed bottom margin on static page post-title h1
-    
-    Static pages were previously missing a margin on the bottom of the
-    post-title h1. By adding <header> with a post-header class around the
-    h1, we gain the exact same bottom margin as seen on post (non-static)
-    pages.
-
-commit 09d827249fe81e8b653ea96a435897bf48223012
-Author: Jakob Wells <jakobwithak@gmail.com>
-Date:   Wed Oct 29 09:17:57 2014 -0700
-
-    Removed button backgrounds on static pages
-    
-    The home and subscribe buttons had backgrounds on static pages, but not
-    post pages. The backgrounds are now removed from these buttons on
-    static pages.
-
-commit ff591092e2c71ad0ba3446a485b819e146e3aaa7
-Author: Robert Lyall <rob@atechmedia.com>
-Date:   Tue Oct 21 16:10:20 2014 +0100
-
-    Add conditional around 'bio' in author.hbs
-
-commit e264f609deb9485850282c016061f9f4cdfe1470
-Author: Hannah Wolfe <erisds@gmail.com>
-Date:   Sat Oct 18 21:43:45 2014 +0200
-
-    Version bump to 1.1.1
-
-commit 12ad5f540476a670be0047c3177f54f09e30cd6c
-Merge: 8bf2b72 ba79858
-Author: John O'Nolan <john@ghost.org>
-Date:   Mon Sep 29 09:09:01 2014 +0200
-
-    Merge pull request #136 from novaugust/master
-    
-    Remove old reference to medium desktop media queries from ToC
-
-commit ba798581ec957b3a3018f96d612f60a613f134d5
-Author: Matt Enlow <matt@divaos.com>
-Date:   Sun Sep 28 13:58:23 2014 -0600
-
-    Remove old reference to medium desktop media queries from ToC
-
-commit 8bf2b72e69c58c393ecc14405f73f121d1342021
-Author: John O'Nolan <john@ghost.org>
-Date:   Thu Sep 25 19:28:43 2014 +0300
-
-    Remove MS specific font feature styling
-
-commit 596823180728df4585a7e1daec277c4f850cc4f4
-Author: John O'Nolan <john@ghost.org>
-Date:   Thu Sep 25 19:23:25 2014 +0300
-
-    Fix IE font feature rendering
-    
-    See #124 (again)
-
-commit e07d0d8775bd1092009a6d023e7368752653fe58
-Author: John O'Nolan <john@ghost.org>
-Date:   Thu Sep 25 17:35:06 2014 +0300
-
-    Post image support
-
-commit 63535cf5ce1a38759821fa3379d33b0c6cafd6e0
-Author: John O'Nolan <john@ghost.org>
-Date:   Thu Sep 25 16:42:27 2014 +0300
-
-    1.1.0
-
-commit 75c81be9c3b0d73867744938dce8f5fba6c46c69
-Author: John O'Nolan <john@ghost.org>
-Date:   Thu Sep 25 16:41:04 2014 +0300
-
-    Typography overhaul
-
-commit 144be310a080e3c277d749423c4c5608d10a5513
-Merge: 72ba094 a149b03
-Author: Hannah Wolfe <github.erisds@gmail.com>
-Date:   Mon Sep 15 20:57:47 2014 +0100
-
-    Merge pull request #132 from jeremija/image-width-fix
-    
-    Fixed bug where image width changes on refresh
-
-commit a149b03a2ff5c9d62236c98431f315cd9e16cd73
-Author: jeremija <jerko.steiner@gmail.com>
-Date:   Sun Sep 14 09:33:33 2014 +0200
-
-    Fixes variable image width bug
-    
-    closes #95
-     - added onload event listeners to images
-
-commit 72ba094f2fef0ec51393fce3410f1232e52f79e6
-Merge: e669b29 2cf5c0c
-Author: Hannah Wolfe <github.erisds@gmail.com>
-Date:   Mon Sep 15 18:46:46 2014 +0100
-
-    Merge pull request #130 from jillesme/master
-    
-    Optimize index.js and add style consistency
-
-commit 2cf5c0cb8715828c387748a495985d25ae004f8a
-Author: Jilles Soeters <info@jilles.me>
-Date:   Sun Sep 7 22:21:06 2014 +0200
-
-    Optimize index.js and add style consistency
-    
-    Declared all jQuery objects once where needed instead of diving into the DOM multiple times for the same object.
-    
-    Added style consistency between variable declarations, if/else statements and functions.
-
-commit e669b29895866ce652dc674cca1ea5c509da3716
-Merge: f55a5a2 bcce1e9
-Author: Paul Davis <PaulAdamDavis@users.noreply.github.com>
-Date:   Wed Sep 3 13:13:01 2014 +0100
-
-    Merge pull request #129 from Douten/patch-1
-    
-    Fix bouncing scroll-down arrow bug in webkit
-
-commit bcce1e9a0827db68da8590dc53d4d609a60c7d8e
-Author: Minh Nguyen <minh.n@me.com>
-Date:   Wed Sep 3 01:16:53 2014 -0400
-
-    Fix bouncing scroll-down arrow bug in webkit
-    
-    Webkit transform currently requires a vendor prefix. Without it, the arrow bounces and rotate to the original un-rotated state. See https://www.dropbox.com/s/46sjiihtjya42s8/wk-rotate.mov
-
-commit f55a5a202f55e4980b4bc0f3322aa023a51ffd9d
-Author: Hannah Wolfe <erisds@gmail.com>
-Date:   Tue Aug 26 21:07:46 2014 +0100
-
-    Version bump to 1.0.1
-
-commit 5d0db596f82b8e4e9c9b3e3ea929b4c56dcb550e
-Merge: eb860f0 c7554d9
-Author: John O'Nolan <john@ghost.org>
-Date:   Mon Aug 25 14:36:59 2014 +0200
-
-    Merge pull request #125 from designbyjake/master
-    
-    Swap Noto Serif to PT Serif
-
-commit eb860f07553d88b33e1dee808dce51121d05bf77
-Merge: 3950251 094c09a
-Author: John O'Nolan <john@ghost.org>
-Date:   Tue Aug 19 18:04:45 2014 +0200
-
-    Merge pull request #127 from PaulAdamDavis/emoji-icon-fix
-    
-    Rename icon assets & references
-
-commit 094c09ade4e308545e230c2654050af307482e55
-Author: Paul Adam Davis <pauladamdavis@gmail.com>
-Date:   Tue Aug 19 16:22:55 2014 +0100
-
-    Rename icon assets & references
-    
-    Closes #120
-    
-    - Renames icon fonts and unicode references
-    
-    This uses the same basic theory behind https://github.com/TryGhost/Ghost-UI/commit/8b25a3d07cda93f81d45e4c41add550afe03c01b which has been proven to work
-
-commit c7554d995b052c652a7789eabc1d72512f10478d
-Author: Jake Giltsoff <hi@jke.me>
-Date:   Sun Aug 17 16:01:47 2014 +0100
-
-    Swap Noto Serif to PT Serif
-
-commit 395025194467130e10d261e46a9a36c8457ca4b1
-Merge: 15d2aa0 1d494fd
-Author: John O'Nolan <john@ghost.org>
-Date:   Wed Aug 13 09:21:49 2014 +0200
-
-    Merge pull request #119 from rossta/post_hbs_typo
-    
-    Fix link tag typo
-
-commit 1d494fddd144f33047b0a1cbbdc3b681ef10acb2
-Author: Ross Kaffenberger <rosskaff@gmail.com>
-Date:   Tue Aug 12 22:14:54 2014 -0400
-
-    fix link tag typo
-
-commit 15d2aa09f4afda9e1a858133926b95f390dc268e
-Merge: ad2ffd8 869a4e2
-Author: John O'Nolan <john@ghost.org>
-Date:   Tue Aug 12 13:13:35 2014 +0200
-
-    Merge pull request #118 from PaulAdamDavis/nowrap-fix
-    
-    Add nowrap to date & rss button
-
-commit 869a4e25f94391ba6cb6265204a1447f380fde39
-Author: Paul Adam Davis <pauladamdavis@gmail.com>
-Date:   Mon Aug 11 22:25:47 2014 +0100
-
-    Add nowrap to date & rss button
-    
-    Closes #117, Closes https://github.com/TryGhost/Ghost/issues/3755
-    
-    - Adds white-space: nowrap; to prevent strings wrapping and breaking onto multiple lines
-
-commit ad2ffd878ca8ea439382b3f86d85cc64be9413ee
-Author: Hannah Wolfe <erisds@gmail.com>
-Date:   Mon Aug 11 08:16:40 2014 +0100
-
-    Adding download instructions to readme
-
-commit 5da18ddb3be37de922ac05068cb216b9c1e81c44
-Author: John O'Nolan <john@ghost.org>
-Date:   Thu Aug 7 16:16:51 2014 +0300
-
-    Fix bug where footer text would wrap to a new line
-
-commit 8fd21ea939a264b44710cd76b88bcd6a9f38c6a3
-Merge: b84309f ba881b0
-Author: John O'Nolan <john@ghost.org>
-Date:   Tue Aug 5 23:43:08 2014 +0200
-
-    Merge pull request #113 from ErisDS/helper-updates
-    
-    Updating Casper's use of title and author helpers
-
-commit ba881b059f83d8d92231db550f858cbc9147c5c8
-Author: Hannah Wolfe <erisds@gmail.com>
-Date:   Tue Aug 5 20:44:31 2014 +0100
-
-    Updating Casper's use of title and author helpers
-    
-    Related to TryGhost/Ghost#3599 and TryGhost/Ghost#3389
-    
-    - The title helper no longer needs triple-stashes to be safe
-    - The #author can now be used as a context block again
-
-commit b84309f48266c28c00e8762f43d4a898f527c3d9
-Author: John O'Nolan <john@ghost.org>
-Date:   Mon Aug 4 12:49:41 2014 +0300
-
-    Stop text from wrapping to a new line with icon
-    
-    Fixes #112
-
-commit cefc04c2b21e76146d86adc04d90e301916e1646
-Merge: a60cdab 7dfe3f4
-Author: Hannah Wolfe <github.erisds@gmail.com>
-Date:   Thu Jul 31 22:33:05 2014 +0100
-
-    Merge pull request #109 from halfdan/patch-1
-    
-    Simplify author link
-
-commit 7dfe3f4a0dcf7cc64fa94d91d76edab9bf1aa999
-Author: Fabian Becker <halfdan@xnorfz.de>
-Date:   Wed Jul 23 00:33:54 2014 +0200
-
-    Simplify author link
-    
-    no issue
-
-commit a60cdab266bfffa25ed33653fc3cb803a5cc19d9
-Author: John O'Nolan <john@ghost.org>
-Date:   Thu Jul 31 18:58:48 2014 +0300
-
-    Tweak
-
-commit 8ff0ac386c3d6b7e40c65f52061ab22bd75a6b14
-Author: John O'Nolan <john@ghost.org>
-Date:   Thu Jul 31 16:54:34 2014 +0300
-
-    Replace dodgy author helper with better one
-
-commit f6f2a06f7ad04cec8d7f93861a1ef461b1129a9d
-Merge: a2ff1c2 2ac6e81
-Author: John O'Nolan <john@ghost.org>
-Date:   Tue Jul 29 23:32:14 2014 +0200
-
-    Merge pull request #111 from PaulAdamDavis/master
-    
-    Pluralise post count for author page
-
-commit 2ac6e818d90623fe977939273a6fa1880850a760
-Author: Paul Adam Davis <pauladamdavis@gmail.com>
-Date:   Tue Jul 29 18:25:20 2014 +0100
-
-    Pluralise post count for author page
-    
-    No issue
-    
-    - Introduces the new `plural` helper to correctly word the number of posts
-
-commit a2ff1c21869ab4596ad9109fb7d5bf8f44c621b1
-Author: John O'Nolan <john@ghost.org>
-Date:   Sun Jul 27 16:47:30 2014 +0200
-
-    Version bump
-
-commit 45240cdc038de0442baa0b70a971b91b6adedaf3
-Author: John O'Nolan <john@ghost.org>
-Date:   Sun Jul 27 16:46:37 2014 +0200
-
-    Prevent scroll-down contrast BG from overlapping in Firefox
-    
-    Closes #110
-
-commit 5a4334106e975ba4a7fc7302b92c227090a046d8
-Author: John O'Nolan <john@ghost.org>
-Date:   Tue Jul 22 13:36:11 2014 +0200
-
-    OCD
-
-commit 97f3bfea823f6566e98e30e1480d4906769ca0c5
-Author: John O'Nolan <john@ghost.org>
-Date:   Tue Jul 22 13:35:00 2014 +0200
-
-    Cleanup old styles + minor display bugfix
-
-commit e9eca208835ef8f69c35788254127d777a136262
-Author: John O'Nolan <john@ghost.org>
-Date:   Tue Jul 22 13:31:58 2014 +0200
-
-    Add fallback text if user has no entered a bio
-
-commit 00eca81a1ee0a29780d15d94e80cb3f504296a80
-Author: John O'Nolan <john@ghost.org>
-Date:   Tue Jul 22 13:21:33 2014 +0200
-
-    Bouncy ball of love
-
-commit 5dc787d572f762cd6c6179bb16bee98f90469425
-Author: John O'Nolan <john@ghost.org>
-Date:   Mon Jul 21 21:40:31 2014 +0200
-
-    When cover images are used, add subtle gradient top overlay for more contrast behind nav buttons
-
-commit a2e43b155b4c0f7c5e672f7bc759917eda71360d
-Author: John O'Nolan <john@ghost.org>
-Date:   Mon Jul 21 20:55:24 2014 +0200
-
-    Restoring lost class
-
-commit c922b6bab5e1e661140304249dc55301d95a4861
-Author: John O'Nolan <john@ghost.org>
-Date:   Mon Jul 21 20:42:29 2014 +0200
-
-    Update pagination button styles to match new nav button styles
-
-commit 35adcc0fd3a6538a60ec2895d4e1db39809316d1
-Author: John O'Nolan <john@ghost.org>
-Date:   Mon Jul 21 20:37:05 2014 +0200
-
-    Add post meta back into post.hbs
-
-commit 41d4e2525b75c17c5a4de5491380cb40da6e864e
-Author: John O'Nolan <john@ghost.org>
-Date:   Mon Jul 21 20:27:14 2014 +0200
-
-    Random padding fix
-
-commit f6ee7d89f922b8be7b3fe3c6c8e87651d0a5e366
-Author: John O'Nolan <john@ghost.org>
-Date:   Mon Jul 21 20:19:49 2014 +0200
-
-    Add author image to post author-box, if available
-
-commit 91ca337fe62266ad6795c40e638a5481a37197d0
-Author: John O'Nolan <john@ghost.org>
-Date:   Mon Jul 21 19:52:45 2014 +0200
-
-    Link post.hbs author to new author profile page, add icons to meta data
-
-commit 48164cc3cd5c4d97c0d409e5c6d5e92a176fa250
-Author: John O'Nolan <john@ghost.org>
-Date:   Mon Jul 21 19:30:53 2014 +0200
-
-    Fix in case an author has a cover image but no profile image
-
-commit 6659c9514a388258ef66f08ef8603035d303b96f
-Author: John O'Nolan <john@ghost.org>
-Date:   Mon Jul 21 19:09:17 2014 +0200
-
-    Fix in case author has no image
-
-commit 4bd2ce6740fcb475c8f6e11db2721ee505b9b2f6
-Author: John O'Nolan <john@ghost.org>
-Date:   Mon Jul 21 19:07:56 2014 +0200
-
-    Make everything look good with no cover images + crossbrowser fixes
-
-commit 6ae074b724f930171854dc163b18fad04c453b44
-Author: John O'Nolan <john@ghost.org>
-Date:   Mon Jul 21 18:20:36 2014 +0200
-
-    Introduce new post loop partial + new multi-author post meta
-
-commit 088a867ceafe9d83f990a4641791026c06ecfc2e
-Author: John O'Nolan <john@ghost.org>
-Date:   Mon Jul 21 14:45:34 2014 +0200
-
-    First pass on major Casper overhaul and new Multi-user support
-    
-    - Introduces author.hbs page template
-    - Completely refactors header styling with new full-screen cover images
-    - Adds new, improved pagination with additional styles for archive pages
-    - Cleans up a fuckload of bloat and old styles
-
-commit 3db098c1e03e4cd5cc14acfee837251cb4363918
-Author: John O'Nolan <john@ghost.org>
-Date:   Sun Jul 20 17:28:49 2014 +0200
-
-    Revert "Sticky footer"
-    
-    This reverts commit 3242e72cfcebe963d7fa132999e7745a93d82295.
-
-commit 3242e72cfcebe963d7fa132999e7745a93d82295
-Author: John O'Nolan <john@ghost.org>
-Date:   Sun Jul 20 17:27:20 2014 +0200
-
-    Sticky footer
-
-commit fe888da66752b03920ad7656ab2f3ffe005cde21
-Author: John O'Nolan <john@ghost.org>
-Date:   Sun Jul 20 17:07:00 2014 +0200
-
-    Bigger padding on mobile header
-
-commit 8464b3d7a7242adc9c1c8242b132931891050811
-Author: John O'Nolan <john@ghost.org>
-Date:   Sun Jul 20 17:01:17 2014 +0200
-
-    Cleaning up old styles
-
-commit cd5045999b0e54a92e2f1846f0b63b31c90e6c12
-Author: John O'Nolan <john@ghost.org>
-Date:   Sun Jul 20 16:57:38 2014 +0200
-
-    Sexier blog description styling
-
-commit 448082bd48847b047f100cbc73557d1f93fdb254
-Author: John O'Nolan <john@ghost.org>
-Date:   Sun Jul 20 16:43:44 2014 +0200
-
-    New navigation structure to make way for MU changes
-
-commit 2dafaa257a94d59cbd0d2c6d2c7de6400e9885ab
-Merge: 75fd290 9a860f2
-Author: John O'Nolan <john@ghost.org>
-Date:   Mon Jul 14 09:50:54 2014 +0200
-
-    Merge pull request #108 from designbyjake/typography
-    
-    Typography updates
-
-commit 9a860f2b3f42c1966fc812cbe4c2aee5ad313370
-Author: Jake Giltsoff <hi@jke.me>
-Date:   Sat Jul 12 18:56:26 2014 +0100
-
-    Typography updates
-
-commit 75fd2908044df2532511088b74fdf59d4102f998
-Author: John O'Nolan <john@tryghost.org>
-Date:   Fri Jul 11 12:22:28 2014 +0200
-
-    Updated homepage load-in animations
-
-commit faeee8d8a0b71dd6d36d51daf5f0ccb5d1a45c6c
-Merge: e9725f1 11008f9
-Author: John O'Nolan <john@ghost.org>
-Date:   Fri Jul 11 11:36:39 2014 +0200
-
-    Merge pull request #107 from PaulAdamDavis/master
-    
-    Add keyframe animations to the home page header
-
-commit 11008f9831484782fb8cc27c7d4cb903f046a17c
-Author: Paul Adam Davis <pauladamdavis@gmail.com>
-Date:   Fri Jul 11 09:49:40 2014 +0100
-
-    Add keyframe animations to the home page header
-
-commit e9725f1ac65b56dd27a50a0dda2f81ff77b82feb
-Merge: 6287899 5482da4
-Author: John O'Nolan <john@ghost.org>
-Date:   Mon Jun 2 09:31:00 2014 +0200
-
-    Merge pull request #103 from namanyayg/patch-1
-    
-    Fixing typo in screen.css
-
-commit 5482da42b9a620d54e1680a58556559c8ea61648
-Author: Namanyay Goel <mail@namanyayg.com>
-Date:   Sun Jun 1 23:08:09 2014 +0530
-
-    Fixing typo in screen.css
-    
-    Line 135, 'corret' to 'correct'.
-
-commit 628789944e05ee9581aaf0e9935e4e6b40124350
-Author: John O'Nolan <john@tryghost.org>
-Date:   Wed Apr 16 08:30:06 2014 +0200
-
-    Fix giant gap on single post pages
-
-commit e6c6767aa1779d3b278c499588ac1ea1cd5d66e2
-Author: John O'Nolan <john@tryghost.org>
-Date:   Wed Apr 16 08:27:44 2014 +0200
-
-    Better author meta mobile styles
-    
-    Fixes #97
-
-commit 8a2edd67b0323b0a1ddbf6a8d5db73b7081a1c83
-Author: John O'Nolan <john@tryghost.org>
-Date:   Tue Apr 15 13:27:36 2014 +0200
-
-    Fix inconsistencies between archive header vs home header
-
-commit 213db8aa9758258bceb3fbef386cee16399ea6aa
-Merge: 2530642 97646bc
-Author: John O'Nolan <john@ghost.org>
-Date:   Tue Apr 15 13:14:36 2014 +0200
-
-    Merge pull request #94 from nblackburn/master
-    
-    Made title visible in tag template
-
-commit 97646bc40664d32d5e104b394a3de4145ebbce3b
-Author: Nathaniel Blackburn <nblackburn@fastmail.fm>
-Date:   Mon Apr 7 11:03:27 2014 +0100
-
-    Made title visible in tag template
-    
-    Made the title visible at all times as it presented as a inconsistency
-    in the template.
-
-commit 253064225309466e3e2d0ea0be02586056883214
-Merge: b18c94f dba4206
-Author: John O'Nolan <john@ghost.org>
-Date:   Thu Mar 27 12:37:15 2014 +0100
-
-    Merge pull request #92 from razvanc/master
-    
-    Added the possibility to go back to the front page.
-
-commit dba42065c76097010373d504771abc10f255cab3
-Author: Razvan Cranganu <razvan.cranganu@gmail.com>
-Date:   Thu Mar 27 12:47:45 2014 +0200
-
-    Added the possibility to go back to the front page.
-
-commit b18c94f29ec107b83c044e8e69a0a41f17ec97aa
-Author: John O'Nolan <john@tryghost.org>
-Date:   Thu Mar 27 09:46:17 2014 +0100
-
-    Revert "Better blockquotes"
-    
-    This reverts commit a9eda22a4e5186976288ae34b9e6e8c2738e74d7.
-
-commit 3dcedcd0a327a6c3806ea92fcf1bafa31f4aa48e
-Author: John O'Nolan <john@tryghost.org>
-Date:   Sat Mar 22 15:15:41 2014 +0100
-
-    Read more chiclet
-
-commit cee5389fb50f5ff0e1a954ab707351949fb7a338
-Author: John O'Nolan <john@tryghost.org>
-Date:   Sat Mar 22 14:55:15 2014 +0100
-
-    Gratuitous linebreak
-
-commit cafb25786f39bf4becae7b1baa6c14f451d79584
-Author: John O'Nolan <john@tryghost.org>
-Date:   Sat Mar 22 13:32:31 2014 +0100
-
-    Give post titles more weight
-
-commit a9eda22a4e5186976288ae34b9e6e8c2738e74d7
-Author: John O'Nolan <john@tryghost.org>
-Date:   Sat Mar 22 12:08:52 2014 +0100
-
-    Better blockquotes
-
-commit a41588f3e5d0ff5393ec4c70713e8905b9c62526
-Author: Hannah Wolfe <github.erisds@gmail.com>
-Date:   Thu Mar 20 19:17:26 2014 +0000
-
-    Version bump to 0.9.3
-
-commit c965ac3f42a05ccf452963d1eb0a6c1366218cfd
-Merge: fdb5248 381cdc7
-Author: John O'Nolan <john@ghost.org>
-Date:   Wed Mar 19 22:12:10 2014 +0100
-
-    Merge pull request #89 from polygonix/add_taghbs
-    
-    Add tag.hbs template
-
-commit 381cdc7e2979dd621e1c93bf5e94f0c41e1688db
-Author: polygonix <contact@polygonix.com>
-Date:   Wed Mar 19 11:10:43 2014 +1100
-
-    Add tag.hbs template
-    
-    Adds a tag.hbs template and some styles to correspond with it.
-
-commit fdb52484b5a18346ed0e030275a3bdd136806d57
-Author: John O'Nolan <john@tryghost.org>
-Date:   Thu Mar 13 22:39:56 2014 +0100
-
-    Update copyright
-
-commit 51b63ddeca21bf6d14a836a32a844b4097bbdf52
-Merge: 7406c1b b020823
-Author: John O'Nolan <john@ghost.org>
-Date:   Mon Mar 3 11:00:26 2014 +0100
-
-    Merge pull request #85 from polygonix/add-package-json
-    
-    Added "package.json" file
-
-commit b02082340860360ee6165807388a78cb59719378
-Author: polygonix <contact@polygonix.com>
-Date:   Mon Mar 3 20:58:59 2014 +1100
-
-    Added "package.json" file
-    
-    Includes "name" and "version" setting
-
-commit 7406c1b7da783b86683a1da23602ad0b12b6ba55
-Merge: be45bc3 87b892e
-Author: John O'Nolan <john@ghost.org>
-Date:   Mon Mar 3 10:27:32 2014 +0100
-
-    Merge pull request #82 from kennwhite/master
-    
-    HTML5 valid markup for Twitter share link
-
-commit be45bc3ce50caa50caa765498327be86f46e034c
-Author: John O'Nolan <john@tryghost.org>
-Date:   Mon Mar 3 10:21:19 2014 +0100
-
-    Updated icon font
-
-commit 87b892e46182ec9a1104abda739133f4e7dc7292
-Author: kennwhite <github@kennwhite.com>
-Date:   Sun Mar 2 21:51:53 2014 -0500
-
-    HTML5 valid markup for Twitter share link
-
-commit 1655d519f644c54dd1fa73b9dc5ba7036ea1e8df
-Merge: f39e92a 53b33f2
-Author: John O'Nolan <john@ghost.org>
-Date:   Sat Mar 1 12:14:08 2014 +0100
-
-    Merge pull request #81 from halfdan/update-fitvids
-    
-    Update jquery.fitvids.js to 1.1
-
-commit 53b33f2d4a261c6415a6157e8a94ae85ca029731
-Author: Fabian Becker <halfdan@xnorfz.de>
-Date:   Sat Mar 1 03:51:08 2014 +0100
-
-    Update jquery.fitvids.js to 1.1
-    
-    fixes #80
-
-commit f39e92a5fdcb18615c3e88dc696918bf19346daa
-Merge: 348b8cf 835ec25
-Author: John O'Nolan <john@ghost.org>
-Date:   Fri Feb 28 23:42:31 2014 +0100
-
-    Merge pull request #79 from cobbspur/hover
-    
-    Added hover state for Author meta anchor
-
-commit 348b8cf6ce6088fd1d27eabff9591c8c7e5e4534
-Author: John O'Nolan <john@tryghost.org>
-Date:   Mon Feb 24 14:33:37 2014 +0100
-
-    Remove unused old Normalize.css file
-
-commit a60dcf99d5d15caf69c836ac07ba94bc8360ddee
-Author: John O'Nolan <john@tryghost.org>
-Date:   Mon Feb 24 14:32:10 2014 +0100
-
-    Remove CSS @import with inline minified normalize.css
-    
-    See #57
-
-commit 835ec25f0b202cd58b5b1453f705aed0cfb26e37
-Author: cobbspur <cobbspur@hotmail.com>
-Date:   Sun Feb 23 12:20:41 2014 +0000
-
-    Added hover state for Author meta anchor
-
-commit 48bf106f25e04357fd50035de5d9ac37a6b36b64
-Author: John O'Nolan <john@tryghost.org>
-Date:   Mon Feb 3 23:21:26 2014 +0700
-
-    Remove specific resolution optimisation
-
-commit 55784b43483a4e657857a7d105f423ca58213d98
-Author: John O'Nolan <john@ghost.org>
-Date:   Sun Feb 2 16:39:22 2014 +0100
-
-    Corrected link
-
-commit 0efa582d77961e2a8c0c6be5b0aff23f5144b77a
-Author: John O'Nolan <john@tryghost.org>
-Date:   Fri Jan 31 14:35:24 2014 +0700
-
-    Better responsive images
-    
-    Closes #76
-
-commit 75460181364ad2ac569e6d19d97f81483ef5874b
-Author: John O'Nolan <john@tryghost.org>
-Date:   Mon Jan 27 19:16:17 2014 +0700
-
-    Add support for author.url and author.location output
-    
-    Closes #72
-
-commit 74a7b8bf25be5d74d2ca4e71cfa80c9e4738f50c
-Merge: 3c1b7d6 492ba62
-Author: John O'Nolan <john@ghost.org>
-Date:   Thu Jan 23 18:49:33 2014 -0800
-
-    Merge pull request #70 from altonius/patch-1
-    
-    Update post.hbs - make twitter link https
-
-commit 492ba62e1f13df0704d7bc2a8844a5e8f126c70c
-Author: altonius <altonius@gmail.com>
-Date:   Wed Jan 15 20:58:34 2014 +1100
-
-    Update post.hbs
-    
-    updated twitter url to use https inline with the other sharing services
-
-commit 3c1b7d68ec63f7cf7621f3aa8e30b5c01961e145
-Author: John O'Nolan <john@tryghost.org>
-Date:   Mon Jan 13 01:34:33 2014 +0100
-
-    2013 => 2014
-
-commit 9a261d1e930a1b01364c4b7e5b67cfcf05713212
-Author: Hannah Wolfe <erisds@gmail.com>
-Date:   Sun Jan 12 21:52:21 2014 +0000
-
-    Adding explicit favicon link
-
-commit b7a6f81a18a55555be70b0b6479606a48498874b
-Author: John O'Nolan <john@tryghost.org>
-Date:   Fri Jan 10 17:00:41 2014 +0100
-
-    Removed conditional author check
-    
-    Because a post always has an author. Except when Ghost first runs, and there is the welcome post with no author. But in this case Ghost simply outputs nothing - I haven’t been able to make anything explode.
-
-commit 61cfb3064bd4683e47a002fc418bb9ec23a7c27f
-Author: John O'Nolan <john@tryghost.org>
-Date:   Fri Jan 10 16:59:27 2014 +0100
-
-    Cleaned up comments and indentation
-
-commit 8b420d01a54d8a1a18a56198c6af77a2dab12e46
-Author: John O'Nolan <john@tryghost.org>
-Date:   Fri Jan 10 16:31:25 2014 +0100
-
-    Add missing span to page template
-    
-    Fixes #67
-
-commit 36fe40b9d7dc86a2747bb5f7913bd58c30e00f43
-Merge: 5c8fc51 0e1329f
-Author: John O'Nolan <john@ghost.org>
-Date:   Tue Jan 7 12:06:42 2014 -0800
-
-    Merge pull request #66 from mjbshaw/patch-1
-    
-    Respect the blog URL (and subdirectory) in footer
-
-commit 0e1329f51f55049cb7b34551a666e9de88d162d9
-Author: Michael Bradshaw <mjbshaw@gmail.com>
-Date:   Tue Jan 7 12:31:32 2014 -0700
-
-    Respect the blog URL (and subdirectory) in footer
-
-commit 5c8fc51848e51fc931c5ea7fd5891e3f2200fa3a
-Author: Hannah Wolfe <erisds@gmail.com>
-Date:   Mon Jan 6 21:06:42 2014 +0000
-
-    Adding encode helper to share link
-
-commit 054f13813544887234945639f632809b3362e7cd
-Merge: 2d53999 97e23d1
-Author: Hannah Wolfe <erisds@gmail.com>
-Date:   Sat Dec 28 15:15:24 2013 +0000
-
-    Merge pull request #61 from jitendravyas/master
-
-commit 97e23d1238381540a6739a8cc46ec8a60b39e583
-Author: Jitendra Vyas <jitendra.web@gmail.com>
-Date:   Sat Dec 28 16:11:19 2013 +0530
-
-    replaced to html5 charset tag
-    
-    http-equiv="Content-Type" content="text/html" is invalid in HTML5.
-
-commit 2d539998d46ab752d302201832757f07e3215927
-Author: John O'Nolan <john@tryghost.org>
-Date:   Sat Dec 28 14:09:01 2013 +0100
-
-    Make blog title and description more legible on light backgrounds
-    
-    Adds a light shadow to blog title and description to give slightly more contrast between text and background when a cover image is used with a predominently light colour. This is not a complete fix, because heavy shadows do not lend to the aesthetic of Casper - however it does go some way to making a small improvement to legibility in most cases.
-    
-    Related: https://github.com/TryGhost/Ghost/issues/1768
-
-commit f503b7e5ebe9cb657716c5f5fe0bf0369c7a0788
-Merge: 657f9fb 5b1e9c5
-Author: John O'Nolan <john@tryghost.org>
-Date:   Sat Dec 28 03:13:36 2013 -0800
-
-    Merge pull request #62 from jitendravyas/patch-1
-    
-    removed chrome frame option from meta tag
-
-commit 5b1e9c590f0e5df59c6b1f9907f309c6a9f4e7ad
-Author: Jitendra Vyas <jitendra.web@gmail.com>
-Date:   Sat Dec 28 16:25:38 2013 +0530
-
-    removed chrome frame option from meta tag
-    
-    Google has discontinue the Chrome frame project so I suggest to remove it. Event HTML5 boilerplate has removed it https://github.com/h5bp/html5-boilerplate/commit/8fc26501f4635df92bbbff966d8d6e6064e0e419
-
-commit 657f9fb749b5cc8035eb09ac7be480d81be76f88
-Author: John O'Nolan <john@tryghost.org>
-Date:   Mon Dec 2 11:53:48 2013 +0100
-
-    More stupid fixes
-
-commit 11ddc3054505422ca29f6fb8cd5497f4e9be336e
-Author: John O'Nolan <john@tryghost.org>
-Date:   Mon Dec 2 11:49:26 2013 +0100
-
-    Fix moronic bug
-    
-    Introduced by me in 9096fbd977f197274f29a643ae8433d5f365a843
-
-commit 7bc3dfa7e6a2c06889bc6a09153ff5591be7026b
-Merge: e4e8b0d b5819fd
-Author: Hannah Wolfe <github.erisds@gmail.com>
-Date:   Thu Nov 28 07:21:05 2013 -0800
-
-    Merge pull request #55 from halfdan/asset-helper
-    
-    Use asset helper to generate paths.
-
-commit b5819fd970e77972903b9307aaa2a36a0949da36
-Author: Fabian Becker <halfdan@xnorfz.de>
-Date:   Thu Nov 28 13:41:52 2013 +0000
-
-    Use asset helper to generate paths.
-    
-    fixes #54
-
-commit e4e8b0d902c5c3ec9e7027aa73889169aa1e823c
-Merge: 8b38234 9dcf734
-Author: John O'Nolan <john@tryghost.org>
-Date:   Sun Nov 17 03:52:07 2013 -0800
-
-    Merge pull request #53 from NullGeo/master
-    
-    Update normalize.css to v2.1.3
-
-commit 9dcf734f040a8df58a2a7952f0260f323730d183
-Author: Gopal Adhikari <gopala@email.arizona.edu>
-Date:   Sat Nov 16 23:43:35 2013 -0700
-
-    Update normalize.css to v2.1.3
-
-commit 8b3823456581238311f69c06c1fcf2f19c663e1c
-Author: Hannah Wolfe <github.erisds@gmail.com>
-Date:   Thu Nov 14 14:48:35 2013 +0000
-
-    Rename LICENSE.txt to LICENSE
-
-commit 72c4010f3230eef78dac77e53cfa5d3d7a602142
-Merge: 94f98f0 2ca7344
-Author: Hannah Wolfe <github.erisds@gmail.com>
-Date:   Wed Nov 6 12:31:32 2013 -0800
-
-    Merge pull request #39 from egdelwonk/feature/969_page_template
-    
-    Added page template to be compatible with pull #1139.
-
-commit 94f98f0d582ff7b832a7d3561eb8b11189109075
-Author: John O'Nolan <john@tryghost.org>
-Date:   Thu Oct 31 19:34:00 2013 +0100
-
-    Replace Droid with Noto
-    
-    Fixes #30 #46
-
-commit 2dcf64a8ce255092bc66c82df675f79ae5c6a5ec
-Author: John O'Nolan <john@tryghost.org>
-Date:   Thu Oct 31 19:22:54 2013 +0100
-
-    Proper spacing for iframe embeds and responsive videos
-
-commit 38be6803b41ae4130a049ac96829a957d6b357d6
-Author: John O'Nolan <john@tryghost.org>
-Date:   Thu Oct 31 19:09:15 2013 +0100
-
-    Cleanup
-
-commit 9096fbd977f197274f29a643ae8433d5f365a843
-Author: John O'Nolan <john@tryghost.org>
-Date:   Thu Oct 31 19:07:10 2013 +0100
-
-    Remove unscoped IDs
-    
-    Fixes #15
-
-commit 4616c5bd1dd0899741021d451108afa39130b611
-Author: John O'Nolan <john@tryghost.org>
-Date:   Thu Oct 31 18:35:57 2013 +0100
-
-    Responsive videos by default u guyz
-
-commit 0a7074a71689b3709902d114aaa76cf8601d9ec6
-Author: John O'Nolan <john@tryghost.org>
-Date:   Wed Oct 30 16:56:55 2013 +0100
-
-    Oops
-
-commit 928e7e3ffe7903b8c6f0180a20c58d81184db3b5
-Author: John O'Nolan <john@tryghost.org>
-Date:   Wed Oct 30 16:55:54 2013 +0100
-
-    Make the single post view less shit when there's no blog logo
-
-commit 92ff4f4145cc9aef9f9ee021f02caac0484cdf7a
-Merge: fec0cc6 7aee698
-Author: John O'Nolan <john@tryghost.org>
-Date:   Mon Oct 28 01:41:25 2013 -0700
-
-    Merge pull request #51 from cobbspur/prefix
-    
-    Uses prefix for tag helper
-
-commit 7aee698a9878ed6da5fd48fc6e7264014ab6ada5
-Author: cobbspur <cobbspur@hotmail.com>
-Date:   Sun Oct 27 09:35:42 2013 +0000
-
-    Uses prefix for tag helper
-
-commit fec0cc6ca6edbeddee22b4e0cea8157d7673b1c1
-Merge: a930d49 23a9712
-Author: Hannah Wolfe <github.erisds@gmail.com>
-Date:   Sat Oct 26 09:19:10 2013 -0700
-
-    Merge pull request #48 from willglynn/code_wrapping
-    
-    <code>/<tt> elements should wrap since they're used inline
-
-commit 23a97124ab4419364c8ee49bce1112d812cef81d
-Author: Will Glynn <will@willglynn.com>
-Date:   Fri Oct 25 08:29:57 2013 -0500
-
-    <code>/<tt> elements should wrap since they're used inline
-
-commit a930d49bc3bb999a8758aab6b181d06b2ea1bf4d
-Author: John O'Nolan <john@tryghost.org>
-Date:   Fri Oct 18 19:52:29 2013 +0200
-
-    Enhanced copyright date to be dynamic
-    
-    Closes #41
-
-commit 692166bc2ad8a7c99cc3c44d01a428914135cb2f
-Author: John O'Nolan <john@tryghost.org>
-Date:   Fri Oct 18 19:49:36 2013 +0200
-
-    Fix positioning/rendering
-
-commit d504ec0a16451a740e97f75da9b1465630b99496
-Author: John O'Nolan <john@tryghost.org>
-Date:   Fri Oct 18 19:42:50 2013 +0200
-
-    Fix incorrect icon font implementation
-    
-    Closes #35
-
-commit 06aee0b2c5bcab8039d7698e613b5da81762eb82
-Merge: 6ae7958 09061d7
-Author: John O'Nolan <john@tryghost.org>
-Date:   Fri Oct 18 10:35:55 2013 -0700
-
-    Merge pull request #42 from marchdoe/master
-    
-    Extra semicolon
-
-commit 6ae795831534ccb28dbeff76c72cd6ad4714a76b
-Merge: d70bedd 58efcd6
-Author: John O'Nolan <john@tryghost.org>
-Date:   Fri Oct 18 10:35:43 2013 -0700
-
-    Merge pull request #43 from chanster-net/master
-    
-    Fixed invalid meta tag
-
-commit 58efcd67774654f20a45c9f8f2787f90664bb301
-Author: Kevin C <kevin@chanster.net>
-Date:   Fri Oct 18 10:08:42 2013 -0500
-
-    Fixed invalid meta tag. charset should be declared in the content attribute.
-
-commit 09061d71f0bd45564a345d5b1184a7eabf8ca30b
-Author: Doug March <dougmarch@gmail.com>
-Date:   Thu Oct 17 23:26:54 2013 -0400
-
-    Extra semicolon
-    
-    Deleting an extra semicolon.
-
-commit 2ca7344203eb1fb27f5a1ef992f8d52f14072d21
-Author: William Golden <egdelwonk@gmail.com>
-Date:   Wed Oct 16 22:16:40 2013 -0500
-
-    Added page template to be compatible with pull #1139.
-
-commit d70beddd28a2f30839cb0260605b44571355adea
-Merge: fa41e47 8c52f22
-Author: John O'Nolan <john@tryghost.org>
-Date:   Tue Oct 15 00:58:45 2013 -0700
-
-    Merge pull request #31 from alicoding/master
-    
-    Auto height for img in post-content
-
-commit fa41e47672339a0bb13af61ccff01df24f285b0b
-Merge: 10beda3 4b334ad
-Author: Hannah Wolfe <erisds@gmail.com>
-Date:   Mon Oct 14 13:29:13 2013 -0700
-
-    Merge pull request #28 from JoeBonham/patch-1
-    
-    Replaced table.plain LESS with equivalent CSS
-
-commit 8c52f22c9b5ad03a4a175f162e7083a099beaa99
-Author: Ali Al Dallal <ali@alicoding.com>
-Date:   Mon Oct 14 12:16:00 2013 -0400
-
-    Auto height for img in post-content
-
-commit 4b334adf8a0da9d245e50a0e79571d08facbe740
-Author: JoeBonham <josephdbonham@googlemail.com>
-Date:   Mon Oct 14 14:20:16 2013 +0100
-
-    Fixed table.plain css
-    
-    Looked to be LESS formatted CSS that hadn't been compiled. Just replaced with the equivalent compiled CSS.
-
-commit 10beda3f6c02921fa4644d8b33f30eefbf5af9ca
-Author: Hannah Wolfe <erisds@gmail.com>
-Date:   Wed Oct 9 19:28:59 2013 +0100
-
-    Consistently use triple braces for post titles
-
-commit 60966541361d898135cfac7c2535f58d11be683d
-Author: John O'Nolan <john@tryghost.org>
-Date:   Sun Oct 6 17:49:48 2013 +0200
-
-    Updating ghost link
-
-commit 436f94e9a97be86d66c9995f9ca74b02c5408974
-Author: John O'Nolan <john@tryghost.org>
-Date:   Fri Oct 4 09:52:54 2013 +0200
-
-    Moving webfonts from http:// to //
-    
-    https://en.ghost.org/forum/bugs-suggestions/475-suggestion-remove-system-dependence-on-google-web-fonts
-
-commit c4c276653dc751e50fd927bd8c88a72930f4beff
-Author: John O'Nolan <john@tryghost.org>
-Date:   Fri Sep 27 16:59:50 2013 +0200
-
-    Fix line-wrapping on gists
-
-commit 3b5443a97ce7ec6c797568d9abf7850021c59c86
-Author: John O'Nolan <john@tryghost.org>
-Date:   Fri Sep 27 10:59:09 2013 +0200
-
-    Dropped old image fixtures
-
-commit 60cf74304235f3d524bc4c7f56cf3e23048fdebd
-Merge: 9ef17de c2fcb94
-Author: John O'Nolan <john@tryghost.org>
-Date:   Wed Sep 25 07:13:33 2013 -0700
-
-    Merge pull request #27 from Japh/patch-1
-    
-    Update README.md
-
-commit c2fcb94502c4f5b63a78adc9a1a754aa9584bf02
-Author: Japh <japhie@gmail.com>
-Date:   Wed Sep 25 23:28:23 2013 +1000
-
-    Update README.md
-    
-    Fixes typo.
-
-commit 9ef17def42939c1cdd2715a2061100aefc06a629
-Author: John O'Nolan <john@tryghost.org>
-Date:   Tue Sep 24 09:43:11 2013 +0200
-
-    Tweak to make gist embeds work with 100+ lines
-
-commit bd71951dbbaea3ac45db009395680e920f88aa13
-Author: John O'Nolan <john@tryghost.org>
-Date:   Tue Sep 24 09:28:59 2013 +0200
-
-    Updated CSS Table of Contents
-
-commit ded174bab0154df92dd15e32b07bfead6dbfef77
-Author: John O'Nolan <john@tryghost.org>
-Date:   Tue Sep 24 09:21:52 2013 +0200
-
-    Added support for github gist embeds
-    
-    Fixes #26
-
-commit 2bd73d696a53671afe1de0fd5a59a4c22e86b740
-Author: Hannah Wolfe <erisds@gmail.com>
-Date:   Wed Sep 18 00:31:21 2013 +0100
-
-    Share icons open dialog
-    
-    g+ icon works and all 3 open in a dialog
-
-commit aa1fa8b445d6f9c3b6d2c887d5602eb83edd5c60
-Merge: ca7eb5a ff9f091
-Author: Hannah Wolfe <erisds@gmail.com>
-Date:   Tue Sep 17 15:14:34 2013 -0700
-
-    Merge pull request #23 from cobbspur/meta
-    
-    Adds {{meta_title}} and {{meta_description}} to casper theme
-
-commit ff9f091cd30f3f51650f5afa77e87a34c36888c4
-Author: cobbspur <cobbspur@hotmail.com>
-Date:   Tue Sep 17 23:13:49 2013 +0100
-
-    Adds {{meta_title}} and {{meta_description}} to casper theme
-    
-    - uses meta_title and meta_description helpers rather than @blog.title
-
-commit ca7eb5ad0341fe9e4fc5c9f293538087cc231418
-Author: John O'Nolan <john@tryghost.org>
-Date:   Tue Sep 17 11:44:19 2013 +0100
-
-    Add G+ share link
-
-commit 30dce03e86bca3f8c07cc28709898f33ed1218d8
-Author: Hannah Wolfe <erisds@gmail.com>
-Date:   Sun Sep 15 17:50:23 2013 +0100
-
-    Assets need slashes
-
-commit 9aaa0ec17a59c09093857fd107262a239bb65c17
-Author: Hannah Wolfe <erisds@gmail.com>
-Date:   Mon Sep 9 18:07:19 2013 +0100
-
-    Wiring up blog cover image
-
-commit 74dfeb37b03e7703f36b5bc55c1adf86b487b266
-Author: John O'Nolan <john@tryghost.org>
-Date:   Sun Sep 8 22:59:40 2013 +0200
-
-    Responsive styles to fix broken pagination on mobile
-
-commit 19ed4267fe3bd086f462eda610243fcca9b41863
-Author: Hannah Wolfe <erisds@gmail.com>
-Date:   Fri Sep 6 18:50:23 2013 +0100
-
-    Updating {{url}} helper to working syntax
-
-commit 1f1e2062b750b45a9c0b20b84a68e25bf4fc4d15
-Merge: f1f2b54 51634b8
-Author: John O'Nolan <john@tryghost.org>
-Date:   Wed Sep 4 14:40:18 2013 -0700
-
-    Merge pull request #21 from sethlilly/theme-development
-    
-    Removed closing slash in description `meta` tag
-
-commit 51634b805959a7c84aad80a7f412ee83a529afd4
-Author: Seth Lilly <seth@sethlilly.com>
-Date:   Wed Sep 4 15:45:35 2013 -0400
-
-    Added self-closing tags to header
-    
-    Added self-closing tags to header
-    
-    Reverses commit 13e9620
-    
-    - Self-closed tags in the header per Ghost code spec
-
-commit 13e9620d0fcc053f49a4c95dd5b0ef66659430b1
-Author: Seth Lilly <seth@sethlilly.com>
-Date:   Wed Sep 4 15:33:32 2013 -0400
-
-    Removed closing slash in description `meta` tag
-    
-    Removed closing slash in description `<meta>` tag
-    
-    - Self-closing tag removed as it is unnecessary in HTML5.
-
-commit f1f2b54c07254fe107cf3590f3673549150e6ec7
-Author: John O'Nolan <john@tryghost.org>
-Date:   Wed Sep 4 18:04:33 2013 +0200
-
-    Added RSS
-
-commit 618eba0e2f47c00c33a94e0f0a46c8097b1ffb7c
-Author: Hannah Wolfe <erisds@gmail.com>
-Date:   Mon Sep 2 22:12:24 2013 +0100
-
-    Theme helper blitz
-    
-    - date no longer requires published_at
-    - author.name now works.. so using for consistency
-    - url has absolute flag
-    - other misc fixes
-
-commit dc89697827edb5321b8b570f244c187339d9bb53
-Author: Hannah Wolfe <erisds@gmail.com>
-Date:   Mon Sep 2 18:29:11 2013 +0100
-
-    Changing settings to use the new @blog global
-
-commit 24f12d16560405abd97fb0c3fb46f0716c950182
-Author: John O'Nolan <john@tryghost.org>
-Date:   Mon Sep 2 13:14:15 2013 +0200
-
-    Added new author/logo helpers, stripped static blog cover image
-
-commit 1be2a199e32640baf8501b7ed6b61421f7626870
-Author: John O'Nolan <john@tryghost.org>
-Date:   Mon Sep 2 12:55:09 2013 +0200
-
-    New conditional logo helper
-
-commit 0e303406108276f1e14900b80902d7560fabcb2f
-Author: John O'Nolan <john@tryghost.org>
-Date:   Mon Sep 2 12:55:03 2013 +0200
-
-    Tweaking comments in default template
-
-commit 53c55fe95ca7e1e4b8c74789d0862c559a6116ab
-Author: John O'Nolan <john@tryghost.org>
-Date:   Mon Sep 2 10:33:16 2013 +0200
-
-    New tags helper
-
-commit c0687363543a4b61ba1c73745587786ca9969ca2
-Author: John O'Nolan <john@tryghost.org>
-Date:   Sun Sep 1 22:25:42 2013 +0200
-
-    Correcting cover image
-
-commit 03d79be55e8d3eef4e6dcd5601344160201c3e0d
-Author: John O'Nolan <john@tryghost.org>
-Date:   Sun Sep 1 21:45:19 2013 +0200
-
-    New global footer
-
-commit b4aba43c9792ec8fed30038e533ae9f2d7a3f694
-Author: John O'Nolan <john@tryghost.org>
-Date:   Sun Sep 1 18:16:24 2013 +0200
-
-    Fixing relative URL bugs
-
-commit f8be958835a765da02e9b3fe1a5b8da3084f9677
-Author: John O'Nolan <john@tryghost.org>
-Date:   Sun Sep 1 17:45:28 2013 +0200
-
-    Fixing license wording in readme
-
-commit cc40f640e2782d9050a15ae892f2f493a947a0d4
-Author: John O'Nolan <john@tryghost.org>
-Date:   Sun Sep 1 17:34:34 2013 +0200
-
-    Standardising license text.
-
-commit 5f3d55ef7ad2b42cf3efe75ce24c8eb8b01f7a6e
-Author: John O'Nolan <john@tryghost.org>
-Date:   Sun Sep 1 17:29:52 2013 +0200
-
-    First pass at properly documenting CSS and making it human readable
-
-commit 2ef2ff68bf96bd9ab5a11e8dda74a774d329e2d9
-Author: John O'Nolan <john@tryghost.org>
-Date:   Sun Sep 1 17:02:37 2013 +0200
-
-    Added descriptive handlebars comments to help new developers
-
-commit d93a50d48b04a72f1a73ea85f5099269956fc7a2
-Author: John O'Nolan <john@tryghost.org>
-Date:   Wed Aug 28 21:07:18 2013 +0200
-
-    New Stylez
-    
-    * New pagination styles
-    * Refactored footer to global footer
-    * Introduced new RSS subscription tooltip
-
-commit 49e774889c4a7aa7f6924d06a3bf62189a60dd6e
-Author: John O'Nolan <john@tryghost.org>
-Date:   Wed Aug 28 18:41:32 2013 +0200
-
-    Full refactor
-
-commit 5234629a60c766b382778de9bd530ce3e61ca77b
-Author: John O'Nolan <john@tryghost.org>
-Date:   Wed Aug 28 14:01:39 2013 +0200
-
-    Rework header/typography/icons
-
-commit 788c8ebff011cc7e38631e3507a8c7b8f06f3669
-Author: John O'Nolan <john@tryghost.org>
-Date:   Tue Aug 27 20:41:41 2013 +0200
-
-    Tweaky
-
-commit bf1dd0e9d445e9dbb0ae354107241ea0e4257d2d
-Author: John O'Nolan <john@tryghost.org>
-Date:   Tue Aug 27 19:35:23 2013 +0200
-
-    THE NEXT ONE
-    
-    * Introducing icon fonts
-    * New post footer
-    * Many responsive refinements and enhancements
-    * Few new helpers
-
-commit b5021db970248cc8eeb31ad17ea00f83313bb087
-Author: John O'Nolan <john@onolan.org>
-Date:   Mon Aug 26 20:26:34 2013 +0200
-
-    The new header
-    
-    * Experimental new Ghost watermark
-    * Ghost icon navigational styles
-    * Enhanced responsive styles
-
-commit 85b74ea3938b3db84e04176de0ff5c30d8602e79
-Author: John O'Nolan <john@onolan.org>
-Date:   Mon Aug 26 02:35:53 2013 +0200
-
-    Next pass on Casper refactor
-    
-    * New Helpers
-    * Updated Helpers
-    * New reponsive header styles
-    * New global blog icon
-    * Responsive styles adjustments
-
-commit fa61f74ce968812b3771eb301b93c65d3dcda872
-Author: John O'Nolan <john@onolan.org>
-Date:   Sun Aug 25 01:01:45 2013 +0200
-
-    Dropping version number from readme
-
-commit 2b847c0530df9642e23cefed2eff59b10f87704b
-Author: John O'Nolan <john@onolan.org>
-Date:   Sun Aug 25 00:57:39 2013 +0200
-
-    Massive overhaul / update.
-    
-    Introducing
-    * New helpers
-    * New header image
-    * Responsive / mobile styles
-    * Mobile device metatags and optimisations
-    * Initial blog icon support
-    * Restyled homepage feed
-
-commit 75c3ad7f1b66d7fa67f85e0a096b7f6c96014e80
-Author: John O'Nolan <john@onolan.org>
-Date:   Wed Aug 21 16:53:13 2013 +0200
-
-    Prevent header image from being selectable
-
-commit 701746c10205d80b71d3f17418b48e2293096c50
-Author: John O'Nolan <john@onolan.org>
-Date:   Wed Aug 21 16:44:09 2013 +0200
-
-    Move home header image to inline img / refactor headings
-
-commit 4f1ff5983940c9ceb4bfccb3bad126a9532235c4
-Author: John O'Nolan <john@onolan.org>
-Date:   Wed Aug 21 15:12:00 2013 +0200
-
-    Introducing new typographic styles + code cleanup
-
-commit 2faa6612b761c9f069456c7bbc9ffda5afc553e9
-Author: John O'Nolan <john@onolan.org>
-Date:   Wed Aug 21 10:21:01 2013 +0200
-
-    Tweak.
-
-commit 43d1e2723f9e355252e509ba0073416ae645dab1
-Author: John O'Nolan <john@onolan.org>
-Date:   Wed Aug 21 08:42:36 2013 +0200
-
-    Fixed word breaking bug
-    
-    See TryGhost/Ghost@044cf21887e4906994b1e4e424310516dce4b944
-
-commit d6fec8d50fa249556bcec52859d51b53e51aba68
-Author: John O'Nolan <john@onolan.org>
-Date:   Tue Aug 20 18:53:02 2013 +0200
-
-    First pass at new Casper homepage
-
-commit fd4aebe2e275d13a9ec1a759d8d5f89f7b1d50db
-Author: John O'Nolan <john@onolan.org>
-Date:   Mon Aug 19 13:09:56 2013 +0200
-
-    Break long words to new line.
-    
-    Closes #16
-
-commit 73fc4351257236166de982c9b49d28526695bd1b
-Author: John O'Nolan <john@onolan.org>
-Date:   Sun Aug 11 18:42:46 2013 +0200
-
-    Animation tweak
-
-commit 802bb02c63cb6b3002c5a9c71f9bf8985b804fd3
-Author: John O'Nolan <john@onolan.org>
-Date:   Sun Aug 11 17:37:57 2013 +0200
-
-    Minor footer style tweaks and added new RSS/subscription button
-
-commit 21d2a929a98f4ec7130624b4fd65ebb7f68ab819
-Author: John O'Nolan <john@onolan.org>
-Date:   Sun Aug 11 16:39:25 2013 +0200
-
-    Second pass on Casper refactor, added new footer areas on single post view.
-
-commit e4ce16b517ea7866ee1b55295d73738f079ffbae
-Author: John O'Nolan <john@onolan.org>
-Date:   Sat Aug 10 18:42:21 2013 +0200
-
-    First pass at refactoring styles
-
-commit e8080571bd6c3f6b9f759613adf73629a12069ce
-Author: John O'Nolan <john@onolan.org>
-Date:   Sat Aug 10 16:53:38 2013 +0200
-
-    Updated Normalize.css from v1.0.2 to v2.1.2
-
-commit 61a960d03f78e7395372aac9381528f53892a2e3
-Author: John O'Nolan <john@onolan.org>
-Date:   Sat Aug 10 15:06:01 2013 +0200
-
-    Cleaning
-
-commit 2d5ce92bab1d5af4ec0da867ffa830bf0f72e74a
-Author: John O'Nolan <john@onolan.org>
-Date:   Sat Aug 10 14:47:00 2013 +0200
-
-    Removed old stylesheet defaults
-
-commit 586b52bb21c50d6205d750a2cf5fdeb515996132
-Author: John O'Nolan <john@onolan.org>
-Date:   Sat Aug 10 14:45:34 2013 +0200
-
-    Removed old image fixtures
-
-commit 9ca4564cb2ffc067fd2dfc7da297b13a67f033f4
-Author: John O'Nolan <john@onolan.org>
-Date:   Sat Aug 10 14:36:03 2013 +0200
-
-    Removed concept of partials from Casper. For now.
-
-commit 820b222f8e53338b8dafdb62d8f1543564e87b02
-Author: John O'Nolan <john@onolan.org>
-Date:   Sat Aug 10 14:26:34 2013 +0200
-
-    Changed theme structure. Moved all assets into /assets/
-
-commit 1fb478234ab0e9f47521195184f0314f0ad841fc
-Author: John O'Nolan <john@onolan.org>
-Date:   Sat Aug 10 14:06:29 2013 +0200
-
-    Byebye old fonts
-
-commit 1c7055de7660905ac4340989a0f4bc204e651d05
-Author: John O'Nolan <john@onolan.org>
-Date:   Sat Aug 10 13:32:19 2013 +0200
-
-    Kill off jQuery. Should be calling in Ghost's native/shared jQuery file. Also - lib folder in a theme dir - ew.
-
-commit 87e772c268e056ca3a610258c6ee67067f4c6eb1
-Merge: cebd42f 7214380
-Author: Hannah Wolfe <erisds@gmail.com>
-Date:   Thu Aug 22 13:54:45 2013 -0700
-
-    Merge pull request #18 from cobbspur/date
-    
-    helper name changes for casper
-
-commit 7214380abda6e6b2e1558f515d2a2ddc7b44fc19
-Author: cobbspur <cobbspur@hotmail.com>
-Date:   Thu Aug 22 21:45:00 2013 +0100
-
-    helper name changes for casper
-    
-    closes #17
-    
-    - changed pagination and date in handlebars templates
-
-commit cebd42fc51638104186790e3e300888f88009f79
-Author: ErisDS <erisds@gmail.com>
-Date:   Wed Aug 7 12:06:16 2013 +0100
-
-    Removing accidental commit
-
-commit 0c94300d4a8d68f8e740b42f884d8fc0903394fd
-Author: Hannah Wolfe <erisds@gmail.com>
-Date:   Tue Aug 6 22:17:58 2013 +0100
-
-    Casper now displays logo if one is uploaded
-
-commit ad877308d42a34aa799fd2500a0347f0220bb840
-Author: ErisDS <erisds@gmail.com>
-Date:   Sat Jul 27 14:22:45 2013 +0100
-
-    Replacing weird svg font file with the original and correct file
-
-commit 16d9029acc723fc075cfcfc7fe30b75a5061e7d5
-Author: ErisDS <erisds@gmail.com>
-Date:   Sun Jul 14 17:16:04 2013 +0100
-
-    Ghost id in css causes errors
-    
-    - fixes #265
-    - I've just removed this css as I can't see anywhere in casper where it will be needed.
-    - Using id's in theme css should be pretty much banned, or always tightly scoped away from the content so as not to clash with markdown
-
-commit 8990d7598d30a172c4eaa68107673045831b64ce
-Author: ErisDS <erisds@gmail.com>
-Date:   Fri Jul 12 00:10:09 2013 +0100
-
-    Milestone 0.2.0 version bump
-
-commit 97a24a07fbb6574ff3794b5eaa08286977ff81a4
-Author: ErisDS <erisds@gmail.com>
-Date:   Thu Jul 11 17:50:01 2013 +0100
-
-    Ghost issue 246 part 12
-    
-    - renaming single.hbs to post.hbs
-
-commit 09295abe4078feef32f4a5a6325d20d3011b14bf
-Author: ErisDS <erisds@gmail.com>
-Date:   Thu Jul 11 17:09:45 2013 +0100
-
-    Ghost issue 254 adds a helper for content
-    
-    - Removed triple taches from content as they are no longer required
-
-commit e40d3e2680051c5e47a03e3381d37aeda9b2f328
-Author: ErisDS <erisds@gmail.com>
-Date:   Thu Jul 11 16:28:58 2013 +0100
-
-    Ghost issue 253 changed content_html to just content
-    
-    This update to casper matches that change
-
-commit cffc941b6b1d004c05be0b4796281433096e7e61
-Author: ErisDS <erisds@gmail.com>
-Date:   Thu Jul 11 01:28:04 2013 +0100
-
-    HTML helpers refactor - issue #246 item 2
-    
-    - Helpers no longer require data to be passed explicitly to them
-
-commit 5d770ffe10c7c509b9b430dafc1c41bce9569152
-Author: ErisDS <erisds@gmail.com>
-Date:   Tue Jul 9 16:31:44 2013 +0100
-
-    HTML helpers work with double taches - issue #246 item 1.
-    
-    - updating casper to use 2 taches for pagination helper
-
-commit 93072a6d9b41e45fe761b7fde90448720a065103
-Merge: d0f18f7 229ab70
-Author: Hannah Wolfe <erisds@gmail.com>
-Date:   Tue Jun 25 09:46:25 2013 -0700
-
-    Merge pull request #14 from cobbspur/casperpage
-    
-    closes issue #13 pagination
-
-commit 229ab708994f6c6a96909559755f55722a9f4ffd
-Author: cobbspur <cobbspur@hotmail.com>
-Date:   Tue Jun 25 16:20:22 2013 +0100
-
-    closes issue #13 pagination
-    
-    - adds pagination to homepage
-
-commit d0f18f78f7d0242509ab2cff7173dcef740edf12
-Author: hannah <hannah.wolfe@moo.com>
-Date:   Tue Jun 18 22:40:36 2013 +0100
-
-    Milestone 0.1.1 version bump commit
-
-commit 5db837f86b912d44315cbfb6f56e1c0bda2e57b9
-Merge: cb6056e 470f868
-Author: Hannah Wolfe <erisds@gmail.com>
-Date:   Mon Jun 17 15:28:38 2013 -0700
-
-    Merge pull request #11 from cobbspur/caspertweak
-    
-    changes to globals in casper
-
-commit 470f868be18a7f49f6b23d4ee21facfcd74f766c
-Author: cobbspur <cobbspur@hotmail.com>
-Date:   Sun Jun 16 19:24:57 2013 +0100
-
-    changes to globals in casper
-    
-    - changed ghostGlobals in default.hbs to settings in lieu of future changes from hannah
-
-commit cb6056e08f9b3e064cd1bda82a3d6a460ab99a0e
-Merge: 2134576 0fc57a0
-Author: Hannah Wolfe <erisds@gmail.com>
-Date:   Sun Jun 16 08:22:21 2013 -0700
-
-    Merge pull request #10 from cobbspur/casperissue8
-    
-    closes #8 - replacing created dates
-
-commit 0fc57a0bd0c6e261dcf82f77ececb29bf5f24249
-Author: cobbspur <cobbspur@hotmail.com>
-Date:   Sun Jun 16 16:15:44 2013 +0100
-
-    closes casperissue #8
-    
-    - replaces created_at with publish_at in full-post.hbs and list-post.hbs
-
-commit 213457659c98d0997df3a0b165f136f90435d1ce
-Merge: 35dc0ea 0a7f8ea
-Author: Hannah Wolfe <erisds@gmail.com>
-Date:   Sun Jun 16 08:09:22 2013 -0700
-
-    Merge pull request #9 from cobbspur/casperissue1
-    
-    closes #1 - removing featured
-
-commit 0a7f8ea03a936dd0f2eaa764d29aefa4fb39f99c
-Author: cobbspur <cobbspur@hotmail.com>
-Date:   Sun Jun 16 15:54:30 2013 +0100
-
-    closes #1 - removing featured
-    
-    - changed post.hbs to list-post.hbs and refactored code
-    - changed featured.hbs to full-post.hbs and refactored code
-    - index.hbs now selects first post and extends full-post then list-post on remaining posts
-    - single.hbs now extends full-post
-
-commit 35dc0ea7973c6fde2305d5d15070a92d721c5bac
-Merge: cff1c5d d9d72db
-Author: Hannah Wolfe <erisds@gmail.com>
-Date:   Sat Jun 15 01:02:03 2013 -0700
-
-    Merge pull request #7 from cobbspur/casperissue3
-    
-    casper issue #3 closes #3
-
-commit d9d72dbb3791568ead4e1bb8e8850c48560b7652
-Author: cobbspur <cobbspur@hotmail.com>
-Date:   Fri Jun 14 19:19:45 2013 +0100
-
-    casper issue #3
-    
-    - deleted JON logo
-    - deleted post footer
-
-commit cff1c5dc9d53d90a0f3e3c042fb6a957a3e09292
-Author: John O'Nolan <john@onolan.org>
-Date:   Thu Jun 13 22:37:47 2013 +0200
-
-    Adding license
-
-commit 9ddfae8cdc0a152d787b8c4f2ade76743eda9919
-Author: Hannah Wolfe <erisds@gmail.com>
-Date:   Thu May 16 22:18:41 2013 +0100
-
-    issue #28 - bookshelf reimplementation
-    
-    required switchover to snake_case
-
-commit 151f5d3f4c3b613a283a0733ffd1f97f403f477c
-Merge: 162b362 2bff124
-Author: Hannah Wolfe <erisds@gmail.com>
-Date:   Sat May 11 11:16:36 2013 +0100
-
-    Merge branch 'master' of github.com:TryGhost/Casper
-
-commit 162b362e4bd4aa32564ab1de860ceacba54b7096
-Author: Hannah Wolfe <erisds@gmail.com>
-Date:   Sat May 11 11:16:11 2013 +0100
-
-    Casper - initial commit to separate GitHub repo
-
-commit 2bff1243fb6a56362e41075cb73ecafa9403fdbf
-Author: hannah <hannah.wolfe@moo.com>
-Date:   Sat May 11 11:08:38 2013 +0100
-
-    Casper - initial commit to separate GitHub repo
-
-commit 77ec816981bde739ecac054e9b1bdbf8ff37306d
-Author: Hannah Wolfe <erisds@gmail.com>
-Date:   Fri May 10 14:38:18 2013 -0700
-
-    Initial commit
+* abr4xas a08947c se agrega soporte a twemoji
+* abr4xas 19e79c6 se agrega soporte a twemoji
+* abr4xas cae940f actualizado
+* ángel 168c6ac Update navigation.html
+* ángel 8ce6dee Update base.html
+* abr4xas 71b2d13 actualizado
+*   abr4xas cec15a5 Merge branch 'master' of https://github.com/abr4xas/Casper2Pelican
+|\  
+| * ángel b6d64b2 Update base.html
+| * ángel 3e6accc Update .htaccess
+| * ángel 41d662c Update coments.html
+* | abr4xas 721c578 modificado
+|/  
+* abr4xas cfc14a6 actualizado codigo publicitario
+*   abr4xas e78dd46 Merge branch 'master' of github.com:abr4xas/Casper2Pelican
+|\  
+| * abr4xas 43b34ab modificado
+| * abr4xas 76b2e3f modificado
+* | abr4xas 61f9b5b Agregada publicidad de adpv
+* | abr4xas 2388137 agregado publicidad adpv
+|/  
+* abr4xas 28f0aad Actualizado
+* abr4xas 9f62192 Actualizado
+* abr4xas a311a40 Actualizando plantilla, agregando soporte a emojis
+* abr4xas 9bb73be Actualizando plantilla, agregando soporte a emojis
+* abr4xas 5d1de7d actualizando templates/base.html
+* abr4xas 88aec4e actualizando templates/base.html
+* abr4xas f064b1d actualizando templates/base.html
+* abr4xas f3baece actualizando templates/base.html fix typo
+* abr4xas 3c15de3 actualizando templates/base.html fix typo
+* abr4xas f820a24 actualizando templates/base.html
+* abr4xas 0fc16ca actualizando templates/base.html
+* abr4xas a4b27e8 actualizando templates/base.html
+* abr4xas 1c5ca82 actualizando templates/base.html
+* abr4xas 8a6886c actualizando templates/base.html fix typo
+* abr4xas fd31cd5 actualizando templates/base.html
+* abr4xas 6cc8287 actualizando templates/articles.html
+* ángel 5968213 Update article.html
+* abr4xas c6d4572 actualizando plantilla
+* abr4xas 692e522 actualizando plantilla
+* abr4xas 1a706b5 actualizando plantilla
+* abr4xas fd18d41 actualizando plantilla
+* abr4xas 9d5e01f actualizando plantilla
+* abr4xas 5eef1ab actualizando plantilla
+* abr4xas b10c9d8 actualizando plantilla
+* abr4xas 9e33a61 actualizando plantilla
+* abr4xas 4ebbfe8 actualizando plantilla
+* abr4xas ac4db33 actualizando plantilla
+* abr4xas a4efde1 actualizando plantilla
+* abr4xas ec1dfc0 actualizando plantilla
+* abr4xas 92df897 actualizando plantilla
+* abr4xas 00ff26c actualizando plantilla
+* abr4xas 6b55a3f update repo
+* abr4xas 13cced2 Casper2Jinja
+* abr4xas d66090d Casper 2 Jinja
+* Hannah Wolfe 1b86190 Upgrading Casper to 1.1.7
+* John O'Nolan 37d7d0b Sexier animation timing on menu
+*   John O'Nolan 329dfef Merge pull request #185 from novaugust/master
+|\  
+| * Matt Enlow baea6bb Fix transition property
+|/  
+*   John O'Nolan dffc9f3 Merge pull request #183 from tomkwok/patch-1
+|\  
+| * Tom Kwok 7f42eaa Add -ms- prefix for IE9
+|/  
+*   John O'Nolan dcfddac Merge pull request #182 from mankittens/master
+|\  
+| * Matthew Guy 031ac1f Prefixed second instance of tt with pre
+* |   John O'Nolan 9339635 Merge pull request #181 from PaulAdamDavis/fix-nav-overflow
+|\ \  
+| * | Paul Adam Davis 0d3bafd Fix menu button overflow
+|/ /  
+* |   John O'Nolan 7af816a Merge pull request #172 from mankittens/master
+|\ \  
+| |/  
+| * Matthew Guy a5dcaf6 Removed references to .full-img, debounce, and smartresize, and replaced with pure CSS
+* | John O'Nolan e59dcaa Fix vertical height bug
+* | John O'Nolan 8b35959 Update Nav position
+* | Hannah Wolfe 94422ff Upgrading Casper to 1.1.6
+* |   Hannah Wolfe 47e0b19 Merge pull request #177 from ErisDS/global-nav
+|\ \  
+| * | Hannah Wolfe 8ec65a4 Switch navigation to be global
+|/ /  
+* | John O'Nolan 8e220b0 Fix Safari mobile bug
+* | John O'Nolan e4861a0 Fix for long nav items
+* | John O'Nolan 243192f Updating nav styles
+* |   John O'Nolan c516c10 Merge pull request #175 from PaulAdamDavis/navigation
+|\ \  
+| * | Paul Adam Davis 46dc557 Navigation
+|/ /  
+* |   John O'Nolan 191f5f7 Merge pull request #174 from nicdutil/master
+|\ \  
+| * | nicdutil e559857 fixed ie9 rotate issue with scroll-down arrow
+|/ /  
+* |   John O'Nolan 8f9a185 Merge pull request #171 from AlexanderGalen/master
+|\ \  
+| * | Alexander Carr bcb586b add 'text-rendering:geometricPrecision;' anywhere that seemed appropriate to support ligatures. closes #167
+|/ /  
+* |   John O'Nolan 70ad5bd Merge pull request #170 from mankittens/master
+|\ \  
+| |/  
+| * Matthew Guy b064e9f Fixed transition definitions
+|/  
+*   John O'Nolan 1e6e807 Merge pull request #163 from janoskk/gist_fix
+|\  
+| * Janos Kasza 6db90c9 Fix gist line numbering issue #162
+* |   John O'Nolan 9cf7aea Merge pull request #141 from rglyall/master
+|\ \  
+| |/  
+|/|   
+| * Robert Lyall ff59109 Add conditional around 'bio' in author.hbs
+* |   John O'Nolan bc7b44f Merge pull request #159 from crepererum/css_warnings
+|\ \  
+| * | Marco Neumann db4979d Fix multiple CSS problems, mostly reported by Firefox
+|/ /  
+* | Hannah Wolfe dd4ca42 Version bump to 1.1.5
+* |   John O'Nolan 3bdd10a Merge pull request #155 from razzius/master
+|\ \  
+| * | Razzi Abuissa 56c7663 Fix indentation
+|/ /  
+* | John O'Nolan bf37631 Update copyright
+* | John O'Nolan 82253b0 Derp
+* | John O'Nolan 969a20e Add tag mgmt support to Casper
+* | Hannah Wolfe dbaaf95 Version bump to 1.1.3
+* |   John O'Nolan de94edc Merge pull request #149 from conradkleinespel/master
+|\ \  
+| * | Conrad Kleinespel 1292f2e support for pastebin
+|/ /  
+* | Hannah Wolfe 933ebb8 Version bump to 1.1.2
+* |   John O'Nolan cb11966 Merge pull request #147 from novaugust/page-fix
+|\ \  
+| * | Matt Enlow bcdbdab Move page #post helper to encapsulate image references
+|/ /  
+* |   John O'Nolan 9a1988a Merge pull request #143 from cubb/master
+|\ \  
+| |/  
+|/|   
+| * Jakob Wells e2911f2 Changed button background fix to match post.hbs
+| * Jakob Wells df09b7c Fixed bottom margin on static page post-title h1
+| * Jakob Wells 09d8272 Removed button backgrounds on static pages
+|/  
+* Hannah Wolfe e264f60 Version bump to 1.1.1
+*   John O'Nolan 12ad5f5 Merge pull request #136 from novaugust/master
+|\  
+| * Matt Enlow ba79858 Remove old reference to medium desktop media queries from ToC
+|/  
+* John O'Nolan 8bf2b72 Remove MS specific font feature styling
+* John O'Nolan 5968231 Fix IE font feature rendering
+* John O'Nolan e07d0d8 Post image support
+* John O'Nolan 63535cf 1.1.0
+* John O'Nolan 75c81be Typography overhaul
+*   Hannah Wolfe 144be31 Merge pull request #132 from jeremija/image-width-fix
+|\  
+| * jeremija a149b03 Fixes variable image width bug
+|/  
+*   Hannah Wolfe 72ba094 Merge pull request #130 from jillesme/master
+|\  
+| * Jilles Soeters 2cf5c0c Optimize index.js and add style consistency
+|/  
+*   Paul Davis e669b29 Merge pull request #129 from Douten/patch-1
+|\  
+| * Minh Nguyen bcce1e9 Fix bouncing scroll-down arrow bug in webkit
+|/  
+* Hannah Wolfe f55a5a2 Version bump to 1.0.1
+*   John O'Nolan 5d0db59 Merge pull request #125 from designbyjake/master
+|\  
+| * Jake Giltsoff c7554d9 Swap Noto Serif to PT Serif
+* |   John O'Nolan eb860f0 Merge pull request #127 from PaulAdamDavis/emoji-icon-fix
+|\ \  
+| |/  
+|/|   
+| * Paul Adam Davis 094c09a Rename icon assets & references
+|/  
+*   John O'Nolan 3950251 Merge pull request #119 from rossta/post_hbs_typo
+|\  
+| * Ross Kaffenberger 1d494fd fix link tag typo
+|/  
+*   John O'Nolan 15d2aa0 Merge pull request #118 from PaulAdamDavis/nowrap-fix
+|\  
+| * Paul Adam Davis 869a4e2 Add nowrap to date & rss button
+|/  
+* Hannah Wolfe ad2ffd8 Adding download instructions to readme
+* John O'Nolan 5da18dd Fix bug where footer text would wrap to a new line
+*   John O'Nolan 8fd21ea Merge pull request #113 from ErisDS/helper-updates
+|\  
+| * Hannah Wolfe ba881b0 Updating Casper's use of title and author helpers
+|/  
+* John O'Nolan b84309f Stop text from wrapping to a new line with icon
+*   Hannah Wolfe cefc04c Merge pull request #109 from halfdan/patch-1
+|\  
+| * Fabian Becker 7dfe3f4 Simplify author link
+|/  
+* John O'Nolan a60cdab Tweak
+* John O'Nolan 8ff0ac3 Replace dodgy author helper with better one
+*   John O'Nolan f6f2a06 Merge pull request #111 from PaulAdamDavis/master
+|\  
+| * Paul Adam Davis 2ac6e81 Pluralise post count for author page
+|/  
+* John O'Nolan a2ff1c2 Version bump
+* John O'Nolan 45240cd Prevent scroll-down contrast BG from overlapping in Firefox
+* John O'Nolan 5a43341 OCD
+* John O'Nolan 97f3bfe Cleanup old styles + minor display bugfix
+* John O'Nolan e9eca20 Add fallback text if user has no entered a bio
+* John O'Nolan 00eca81 Bouncy ball of love
+* John O'Nolan 5dc787d When cover images are used, add subtle gradient top overlay for more contrast behind nav buttons
+* John O'Nolan a2e43b1 Restoring lost class
+* John O'Nolan c922b6b Update pagination button styles to match new nav button styles
+* John O'Nolan 35adcc0 Add post meta back into post.hbs
+* John O'Nolan 41d4e25 Random padding fix
+* John O'Nolan f6ee7d8 Add author image to post author-box, if available
+* John O'Nolan 91ca337 Link post.hbs author to new author profile page, add icons to meta data
+* John O'Nolan 48164cc Fix in case an author has a cover image but no profile image
+* John O'Nolan 6659c95 Fix in case author has no image
+* John O'Nolan 4bd2ce6 Make everything look good with no cover images + crossbrowser fixes
+* John O'Nolan 6ae074b Introduce new post loop partial + new multi-author post meta
+* John O'Nolan 088a867 First pass on major Casper overhaul and new Multi-user support
+* John O'Nolan 3db098c Revert "Sticky footer"
+* John O'Nolan 3242e72 Sticky footer
+* John O'Nolan fe888da Bigger padding on mobile header
+* John O'Nolan 8464b3d Cleaning up old styles
+* John O'Nolan cd50459 Sexier blog description styling
+* John O'Nolan 448082b New navigation structure to make way for MU changes
+*   John O'Nolan 2dafaa2 Merge pull request #108 from designbyjake/typography
+|\  
+| * Jake Giltsoff 9a860f2 Typography updates
+|/  
+* John O'Nolan 75fd290 Updated homepage load-in animations
+*   John O'Nolan faeee8d Merge pull request #107 from PaulAdamDavis/master
+|\  
+| * Paul Adam Davis 11008f9 Add keyframe animations to the home page header
+|/  
+*   John O'Nolan e9725f1 Merge pull request #103 from namanyayg/patch-1
+|\  
+| * Namanyay Goel 5482da4 Fixing typo in screen.css
+|/  
+* John O'Nolan 6287899 Fix giant gap on single post pages
+* John O'Nolan e6c6767 Better author meta mobile styles
+* John O'Nolan 8a2edd6 Fix inconsistencies between archive header vs home header
+*   John O'Nolan 213db8a Merge pull request #94 from nblackburn/master
+|\  
+| * Nathaniel Blackburn 97646bc Made title visible in tag template
+|/  
+*   John O'Nolan 2530642 Merge pull request #92 from razvanc/master
+|\  
+| * Razvan Cranganu dba4206 Added the possibility to go back to the front page.
+|/  
+* John O'Nolan b18c94f Revert "Better blockquotes"
+* John O'Nolan 3dcedcd Read more chiclet
+* John O'Nolan cee5389 Gratuitous linebreak
+* John O'Nolan cafb257 Give post titles more weight
+* John O'Nolan a9eda22 Better blockquotes
+* Hannah Wolfe a41588f Version bump to 0.9.3
+*   John O'Nolan c965ac3 Merge pull request #89 from polygonix/add_taghbs
+|\  
+| * polygonix 381cdc7 Add tag.hbs template
+|/  
+* John O'Nolan fdb5248 Update copyright
+*   John O'Nolan 51b63dd Merge pull request #85 from polygonix/add-package-json
+|\  
+| * polygonix b020823 Added "package.json" file
+|/  
+*   John O'Nolan 7406c1b Merge pull request #82 from kennwhite/master
+|\  
+| * kennwhite 87b892e HTML5 valid markup for Twitter share link
+* | John O'Nolan be45bc3 Updated icon font
+|/  
+*   John O'Nolan 1655d51 Merge pull request #81 from halfdan/update-fitvids
+|\  
+| * Fabian Becker 53b33f2 Update jquery.fitvids.js to 1.1
+|/  
+*   John O'Nolan f39e92a Merge pull request #79 from cobbspur/hover
+|\  
+| * cobbspur 835ec25 Added hover state for Author meta anchor
+* | John O'Nolan 348b8cf Remove unused old Normalize.css file
+* | John O'Nolan a60dcf9 Remove CSS @import with inline minified normalize.css
+|/  
+* John O'Nolan 48bf106 Remove specific resolution optimisation
+* John O'Nolan 55784b4 Corrected link
+* John O'Nolan 0efa582 Better responsive images
+* John O'Nolan 7546018 Add support for author.url and author.location output
+*   John O'Nolan 74a7b8b Merge pull request #70 from altonius/patch-1
+|\  
+| * altonius 492ba62 Update post.hbs
+|/  
+* John O'Nolan 3c1b7d6 2013 => 2014
+* Hannah Wolfe 9a261d1 Adding explicit favicon link
+* John O'Nolan b7a6f81 Removed conditional author check
+* John O'Nolan 61cfb30 Cleaned up comments and indentation
+* John O'Nolan 8b420d0 Add missing span to page template
+*   John O'Nolan 36fe40b Merge pull request #66 from mjbshaw/patch-1
+|\  
+| * Michael Bradshaw 0e1329f Respect the blog URL (and subdirectory) in footer
+|/  
+* Hannah Wolfe 5c8fc51 Adding encode helper to share link
+*   Hannah Wolfe 054f138 Merge pull request #61 from jitendravyas/master
+|\  
+| * Hannah Wolfe 97e23d1 replaced to html5 charset tag
+|/  
+* John O'Nolan 2d53999 Make blog title and description more legible on light backgrounds
+*   John O'Nolan f503b7e Merge pull request #62 from jitendravyas/patch-1
+|\  
+| * Jitendra Vyas 5b1e9c5 removed chrome frame option from meta tag
+|/  
+* John O'Nolan 657f9fb More stupid fixes
+* John O'Nolan 11ddc30 Fix moronic bug
+*   Hannah Wolfe 7bc3dfa Merge pull request #55 from halfdan/asset-helper
+|\  
+| * Fabian Becker b5819fd Use asset helper to generate paths.
+|/  
+*   John O'Nolan e4e8b0d Merge pull request #53 from NullGeo/master
+|\  
+| * Gopal Adhikari 9dcf734 Update normalize.css to v2.1.3
+|/  
+* Hannah Wolfe 8b38234 Rename LICENSE.txt to LICENSE
+*   Hannah Wolfe 72c4010 Merge pull request #39 from egdelwonk/feature/969_page_template
+|\  
+| * William Golden 2ca7344 Added page template to be compatible with pull #1139.
+* | John O'Nolan 94f98f0 Replace Droid with Noto
+* | John O'Nolan 2dcf64a Proper spacing for iframe embeds and responsive videos
+* | John O'Nolan 38be680 Cleanup
+* | John O'Nolan 9096fbd Remove unscoped IDs
+* | John O'Nolan 4616c5b Responsive videos by default u guyz
+* | John O'Nolan 0a7074a Oops
+* | John O'Nolan 928e7e3 Make the single post view less shit when there's no blog logo
+* |   John O'Nolan 92ff4f4 Merge pull request #51 from cobbspur/prefix
+|\ \  
+| * | cobbspur 7aee698 Uses prefix for tag helper
+|/ /  
+* |   Hannah Wolfe fec0cc6 Merge pull request #48 from willglynn/code_wrapping
+|\ \  
+| * | Will Glynn 23a9712 <code>/<tt> elements should wrap since they're used inline
+|/ /  
+* | John O'Nolan a930d49 Enhanced copyright date to be dynamic
+* | John O'Nolan 692166b Fix positioning/rendering
+* | John O'Nolan d504ec0 Fix incorrect icon font implementation
+* |   John O'Nolan 06aee0b Merge pull request #42 from marchdoe/master
+|\ \  
+| * | Doug March 09061d7 Extra semicolon
+* | |   John O'Nolan 6ae7958 Merge pull request #43 from chanster-net/master
+|\ \ \  
+| |/ /  
+|/| |   
+| * | Kevin C 58efcd6 Fixed invalid meta tag. charset should be declared in the content attribute.
+* | |   John O'Nolan d70bedd Merge pull request #31 from alicoding/master
+|\ \ \  
+| * | | Ali Al Dallal 8c52f22 Auto height for img in post-content
+| | |/  
+| |/|   
+* | |   Hannah Wolfe fa41e47 Merge pull request #28 from JoeBonham/patch-1
+|\ \ \  
+| |/ /  
+|/| |   
+| * | JoeBonham 4b334ad Fixed table.plain css
+|/ /  
+* | Hannah Wolfe 10beda3 Consistently use triple braces for post titles
+|/  
+* John O'Nolan 6096654 Updating ghost link
+* John O'Nolan 436f94e Moving webfonts from http:// to //
+* John O'Nolan c4c2766 Fix line-wrapping on gists
+* John O'Nolan 3b5443a Dropped old image fixtures
+*   John O'Nolan 60cf743 Merge pull request #27 from Japh/patch-1
+|\  
+| * Japh c2fcb94 Update README.md
+|/  
+* John O'Nolan 9ef17de Tweak to make gist embeds work with 100+ lines
+* John O'Nolan bd71951 Updated CSS Table of Contents
+* John O'Nolan ded174b Added support for github gist embeds
+* Hannah Wolfe 2bd73d6 Share icons open dialog
+*   Hannah Wolfe aa1fa8b Merge pull request #23 from cobbspur/meta
+|\  
+| * cobbspur ff9f091 Adds {{meta_title}} and {{meta_description}} to casper theme
+|/  
+* John O'Nolan ca7eb5a Add G+ share link
+* Hannah Wolfe 30dce03 Assets need slashes
+* Hannah Wolfe 9aaa0ec Wiring up blog cover image
+* John O'Nolan 74dfeb3 Responsive styles to fix broken pagination on mobile
+* Hannah Wolfe 19ed426 Updating {{url}} helper to working syntax
+*   John O'Nolan 1f1e206 Merge pull request #21 from sethlilly/theme-development
+|\  
+| * Seth Lilly 51634b8 Added self-closing tags to header
+| * Seth Lilly 13e9620 Removed closing slash in description `meta` tag
+|/  
+* John O'Nolan f1f2b54 Added RSS
+* Hannah Wolfe 618eba0 Theme helper blitz
+* Hannah Wolfe dc89697 Changing settings to use the new @blog global
+* Hannah Wolfe 24f12d1 Added new author/logo helpers, stripped static blog cover image
+* Hannah Wolfe 1be2a19 New conditional logo helper
+* Hannah Wolfe 0e30340 Tweaking comments in default template
+* Hannah Wolfe 53c55fe New tags helper
+* Hannah Wolfe c068736 Correcting cover image
+* Hannah Wolfe 03d79be New global footer
+* Hannah Wolfe b4aba43 Fixing relative URL bugs
+* Hannah Wolfe f8be958 Fixing license wording in readme
+* Hannah Wolfe cc40f64 Standardising license text.
+* Hannah Wolfe 5f3d55e First pass at properly documenting CSS and making it human readable
+* Hannah Wolfe 2ef2ff6 Added descriptive handlebars comments to help new developers
+* Hannah Wolfe d93a50d New Stylez
+* Hannah Wolfe 49e7748 Full refactor
+* Hannah Wolfe 5234629 Rework header/typography/icons
+* Hannah Wolfe 788c8eb Tweaky
+* Hannah Wolfe bf1dd0e THE NEXT ONE
+* Hannah Wolfe b5021db The new header
+* Hannah Wolfe 85b74ea Next pass on Casper refactor
+* Hannah Wolfe fa61f74 Dropping version number from readme
+* Hannah Wolfe 2b847c0 Massive overhaul / update.
+* Hannah Wolfe 75c3ad7 Prevent header image from being selectable
+* Hannah Wolfe 701746c Move home header image to inline img / refactor headings
+* Hannah Wolfe 4f1ff59 Introducing new typographic styles + code cleanup
+* Hannah Wolfe 2faa661 Tweak.
+* Hannah Wolfe 43d1e27 Fixed word breaking bug
+* Hannah Wolfe d6fec8d First pass at new Casper homepage
+* Hannah Wolfe fd4aebe Break long words to new line.
+* Hannah Wolfe 73fc435 Animation tweak
+* Hannah Wolfe 802bb02 Minor footer style tweaks and added new RSS/subscription button
+* Hannah Wolfe 21d2a92 Second pass on Casper refactor, added new footer areas on single post view.
+* Hannah Wolfe e4ce16b First pass at refactoring styles
+* Hannah Wolfe e808057 Updated Normalize.css from v1.0.2 to v2.1.2
+* Hannah Wolfe 61a960d Cleaning
+* Hannah Wolfe 2d5ce92 Removed old stylesheet defaults
+* Hannah Wolfe 586b52b Removed old image fixtures
+* Hannah Wolfe 9ca4564 Removed concept of partials from Casper. For now.
+* Hannah Wolfe 820b222 Changed theme structure. Moved all assets into /assets/
+* Hannah Wolfe 1fb4782 Byebye old fonts
+* Hannah Wolfe 1c7055d Kill off jQuery. Should be calling in Ghost's native/shared jQuery file. Also - lib folder in a theme dir - ew.
+*   Hannah Wolfe 87e772c Merge pull request #18 from cobbspur/date
+|\  
+| * cobbspur 7214380 helper name changes for casper
+* | ErisDS cebd42f Removing accidental commit
+* | Hannah Wolfe 0c94300 Casper now displays logo if one is uploaded
+|/  
+* ErisDS ad87730 Replacing weird svg font file with the original and correct file
+* ErisDS 16d9029 Ghost id in css causes errors
+* ErisDS 8990d75 Milestone 0.2.0 version bump
+* ErisDS 97a24a0 Ghost issue 246 part 12
+* ErisDS 09295ab Ghost issue 254 adds a helper for content
+* ErisDS e40d3e2 Ghost issue 253 changed content_html to just content
+* ErisDS cffc941 HTML helpers refactor - issue #246 item 2
+* ErisDS 5d770ff HTML helpers work with double taches - issue #246 item 1.
+*   Hannah Wolfe 93072a6 Merge pull request #14 from cobbspur/casperpage
+|\  
+| * cobbspur 229ab70 closes issue #13 pagination
+|/  
+* hannah d0f18f7 Milestone 0.1.1 version bump commit
+*   Hannah Wolfe 5db837f Merge pull request #11 from cobbspur/caspertweak
+|\  
+| * cobbspur 470f868 changes to globals in casper
+|/  
+*   Hannah Wolfe cb6056e Merge pull request #10 from cobbspur/casperissue8
+|\  
+| * cobbspur 0fc57a0 closes casperissue #8
+|/  
+*   Hannah Wolfe 2134576 Merge pull request #9 from cobbspur/casperissue1
+|\  
+| * cobbspur 0a7f8ea closes #1 - removing featured
+|/  
+*   Hannah Wolfe 35dc0ea Merge pull request #7 from cobbspur/casperissue3
+|\  
+| * cobbspur d9d72db casper issue #3
+|/  
+* John O'Nolan cff1c5d Adding license
+* Hannah Wolfe 9ddfae8 issue #28 - bookshelf reimplementation
+*   Hannah Wolfe 151f5d3 Merge branch 'master' of github.com:TryGhost/Casper
+|\  
+| * hannah 2bff124 Casper - initial commit to separate GitHub repo
+* | Hannah Wolfe 162b362 Casper - initial commit to separate GitHub repo
+|/  
+* Hannah Wolfe 77ec816 Initial commit

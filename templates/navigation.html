@@ -4,6 +4,7 @@
         <span class="hidden">Close</span>
     </a>
     <ul role="menubar">
+        <li class="nav-current" role="presentation"><a  href="{{ SITEURL }}/index.html" title="{{ SITENAME }}" itemprop="name" itemprop="significantLink">Home</a></li>
         {% for p in PAGES %}
             <li class="nav-current" role="presentation"><a  href="{{ SITEURL }}/{{ p.url }}" title="{{ SITENAME }} |{{ p.title }}" itemprop="name" itemprop="significantLink">{{ p.title }}</a></li>
         {% endfor %}

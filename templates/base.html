@@ -14,10 +14,6 @@
     <link rel="dns-prefetch" href="//fonts.gstatic.com"/>
     <link rel="dns-prefetch" href="//fonts.googleapis.com"/>
     <link rel="dns-prefetch" href="//accounts.google.com"/>
-    <link rel="dns-prefetch" href="//ssl.google-analytics.com"/>
-    <link rel="dns-prefetch" href="//www.google-analytics.com"/>
-    <link rel="dns-prefetch" href="//googleads.g.doubleclick.net"/>
-    <link rel="dns-prefetch" href="//pagead2.googlesyndication.com"/>
     <link rel="dns-prefetch" href="//twemoji.maxcdn.com"/>
     <meta http-equiv="content-type" content="text/html;charset=utf-8">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
@@ -48,7 +44,6 @@
     <meta name="msvalidate.01" content="{{ MSVALIDATE }}" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="medium" content="mult">
-    <meta name="adblock" content="disable">
     <meta name="rating" content="General">
     <meta name="resource-type" content="document">
     <meta name="revisit-after" content="1 days">
@@ -164,26 +159,16 @@
     <link rel="icon" type="image/png" href="{{ SITEURL }}/theme/images/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="{{ SITEURL }}/theme/images/favicon-16x16.png" sizes="16x16">
     <link rel="shortcut icon" href="{{ SITEURL }}/theme/images/favicon.ico">
-    <script type="text/javascript">(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', '{{GOOGLE_ANALYTICS}}', 'auto');ga('send', 'pageview');var _qevents = _qevents || [];</script>
     <script src="//twemoji.maxcdn.com/twemoji.min.js"></script>
 </head>
 <body class="home-template nav-closed" itemscope itemtype="http://schema.org/WebPage">
-<!-- Google Tag Manager -->
-<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-ML9KT2"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-ML9KT2');</script>
-<!-- End Google Tag Manager -->
     <meta itemprop="name" content="{{ SITENAME }}">
     <meta itemprop="url" content="{{ SITEURL }}">
     <meta itemprop="headline" content="{{ SITENAME }} || {{ TAG_LINE }}">
     <meta itemprop="description about" content="{{ SITE_DESCRIPTION }}">
-    <meta itemprop="keywords" content="gnu, linux, software libre, código abierto, tecnología">
+    <meta itemprop="keywords" content="{{ articles.tags }}">
     <meta itemprop="primaryImageOfPage" content="{{ SITEURL }}/theme/images/logo.png">
-    <meta itemprop="inLanguage" content="es">
+    <meta itemprop="inLanguage" content="{{ SITELANGUAGE }}">
     {% include 'navigation.html' %}
     <div class="site-wrapper">
         <header class="main-header {% if article %}post-head{% endif %}{% if page %}post-head {% endif %}" style="background-image: url({{ SITEURL }}/theme/images/{% if article %}bear.jpg{% else %}banner-bg.jpg{% endif %})" itemscope itemtype="http://schema.org/WPHeader">

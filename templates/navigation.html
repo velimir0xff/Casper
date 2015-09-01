@@ -11,6 +11,9 @@
         {% for p in PAGES %}
             <li class="{% if current_url == p.url %}nav-current{% endif %}" role="presentation"><a  href="{{ SITEURL }}/{{ p.url }}" title="{{ SITENAME }} |{{ p.title }}" itemprop="name" itemprop="significantLink">{{ p.title }}</a></li>
         {% endfor %}
+        {% for c, articles in categories %}
+            <li class="{% if current_url == c.url %}nav-current{% endif %}" role="presentation"><a  href="{{ SITEURL }}/{{ c.url }}" title="{{ SITENAME }} |{{ c.name }}" itemprop="name" itemprop="significantLink">{{ c.name }}</a></li>
+        {% endfor %}
             <li class="{% if current_url == '/archives' %}nav-current{% endif %}" role="presentation"><a  href="{{ SITEURL }}/archives.html" title="{{ SITENAME }} | Archives" itemprop="name" itemprop="significantLink">Archives</a></li>
     </ul>
     <a class="subscribe-button icon-feed" href='http://cloud.feedly.com/#subscription%2Ffeed%2Fhttp%3A%2F%2Ffeeds.feedburner.com%2FElBlogDeAbr4xas'  target='blank'>Subscribe</a>

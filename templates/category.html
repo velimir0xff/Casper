@@ -1,8 +1,13 @@
 {% extends "base.html" %}
-{% block header_type %}{% endblock %}
+{% block header_type %}tag-head{% endblock %}
+{% block scroll %}{% endblock %}
+{% block template_type %}tag-template{% endblock %}
+{% block header_title %}
+<h1 class="page-title" itemprop="headline">{{ category }}</h1>
+{% endblock %}
 {% block content %}
 <main id="content" class="content" role="main" itemprop="mainContentOfPage" itemscope="" itemtype="http://schema.org/Blog">
-    <div>
+    <div class="extra-pagination inner">
         {% include 'pagination.html' %}
     </div>
     {% for article in articles_page.object_list %}
@@ -20,11 +25,10 @@
             </section>
             <footer class="post-meta">
                 <img class="author-thumb" src="{% if article.author_pic_url %}{{ article.author_pic_url }}{% else %}{{ AUTHOR_PIC_URL }}{% endif %}" alt="{{ article.author }}" nopin="nopin">
-                <a href="{{ article.author.url }}">{{ article.author }}</a> on {% for tag in article.tags %}<a href="{{ tag.url }}">{{ tag.name | title }}{% if not loop.last %}, {% endif %}</a>{% endfor %}
+                <a href="{{ SITEURL }}/{{ article.author.url }}">{{ article.author }}</a> on {% for tag in article.tags %}<a href="{{ SITEURL }}/{{ tag.url }}">{{ tag.name | title }}{% if not loop.last %}, {% endif %}</a>{% endfor %}
                 <time class="post-date" itemprop="datePublished" datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
-            </footer>        
+            </footer>
         </article>
     {% endfor %}
-{% include 'pagination.html' %}
 </main>
 {% endblock content %}

@@ -3,6 +3,8 @@
 Based on default theme for [Ghost](http://github.com/tryghost/ghost/).
 Originally adapted for Pelican by Abr4xas, amendments by Colin Wren.
 
+You will need to install the neighbors Pelican plugin for this theme to work.
+
 ## Demo
 
 These blogs are using Casper2Pelican:

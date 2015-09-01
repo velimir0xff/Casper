@@ -160,7 +160,7 @@
     <link rel="shortcut icon" href="{{ SITEURL }}/theme/images/favicon.ico">
     <script src="//twemoji.maxcdn.com/twemoji.min.js"></script>
 </head>
-<body class="home-template nav-closed" itemscope itemtype="http://schema.org/WebPage">
+<body class="{% block template_type %}home-template{% endblock %} nav-closed" itemscope itemtype="http://schema.org/WebPage">
     <meta itemprop="name" content="{{ SITENAME }}">
     <meta itemprop="url" content="{{ SITEURL }}">
     <meta itemprop="headline" content="{{ SITENAME }} || {{ TAG_LINE }}">
@@ -189,11 +189,11 @@
                     {% endblock %}
                 </div>
             </div>
-            {% if page %}
+            {% block scroll %}
             <a class="scroll-down icon-arrow-left blink_me" href="#content" data-offset="-45">
                 <span class="hidden">Scroll Down</span>
             </a>
-            {% endif %}
+            {% endblock %}
         </header>
     {% block content %}
     {% endblock %}

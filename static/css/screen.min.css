@@ -95,3 +95,9 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
     right: 0;
     margin: 0;
 }
+.post.page{
+    border-bottom: none;
+}
+.post.page:after{
+    display: none;
+}

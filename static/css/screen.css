@@ -10,93 +10,93 @@
     3.  Utilities
     4.  General
     5.  Single Post
-    6.  Tag Archive
-    7.  Third Party Elements
-    8.  Pagination
-    9.  Footer
-    10. Media Queries (Tablet)
-    11. Media Queries (Mobile)
-    12. Animations
+    6.  Author Profile
+    7.  Read More
+    8.  Third Party Elements
+    9.  Pagination
+    10. Subscribe
+    11. Footer
+    12. Media Queries (Tablet)
+    13. Media Queries (Mobile)
+    14. Animations
 
 */
 
 /* ==========================================================================
-   0. Normalize.css v2.1.3 | MIT License | git.io/normalize | (minified)
+   0. normalize.css v3.0.3 | MIT License | git.io/normalize | (minified)
    ========================================================================== */
 
-article, aside, details,
-figcaption, figure,
-footer, header, hgroup,
-main, nav, section,
-summary { display: block; }
-audio, canvas, video { display: inline-block; }
-audio:not([controls]) { display: none; height: 0; }
-[hidden], template { display: none; }
 html {
-   font-family: sans-serif;
-   -ms-text-size-adjust: 100%;
-   -webkit-text-size-adjust: 100%;
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
 }
 body { margin: 0; }
-a { background: transparent; }
-a:focus { outline: thin dotted; }
-a:active, a:hover { outline: 0; }
-h1 { font-size: 2em; margin: 0.67em 0; }
-abbr[title] { border-bottom: 1px dotted; }
-b, strong { font-weight: 700; }
-dfn { font-style: italic; }
-hr {
-   -moz-box-sizing: content-box;
-   box-sizing: content-box;
-   height: 0;
+article, aside, details,
+figcaption, figure,
+footer, header,
+main, menu, nav,
+section, summary { display:block; }
+audio, canvas, progress, video {
+    display: inline-block;
+    vertical-align: baseline;
 }
-mark { background: #FF0; color: #000; }
-code, kbd, pre,
-samp { font-family: monospace, serif; font-size: 1em; }
-pre { white-space: pre-wrap; }
-q { quotes: "\201C" "\201D" "\2018" "\2019"; }
+audio:not([controls]) { display: none; height: 0; }
+[hidden], template { display: none; }
+a { background-color: transparent;}
+a:active, a:hover { outline: 0; }
+abbr[title] { border-bottom: 1px dotted; }
+b, strong { font-weight: bold; }
+dfn { font-style: italic; }
+h1 { font-size: 2em; margin: 0.67em 0; }
+mark { background: #ff0; color: #000; }
 small { font-size: 80%; }
 sub, sup {
-   font-size: 75%;
-   line-height: 0;
-   position: relative;
-   vertical-align: baseline;
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
 }
 sup { top: -0.5em; }
 sub { bottom: -0.25em; }
 img { border: 0; }
 svg:not(:root) { overflow: hidden; }
-figure { margin: 0; }
-fieldset {
-   border: 1px solid #c0c0c0;
-   margin: 0 2px;
-   padding: 0.35em 0.625em 0.75em;
+figure { margin: 1em 40px; }
+hr { box-sizing: content-box; height: 0; }
+pre { overflow: auto; }
+code, kbd, pre, samp { font-family: monospace, monospace; font-size: 1em; }
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0;
 }
-legend { border: 0; padding: 0; }
-button, input, select,
-textarea { font-family: inherit; font-size: 100%; margin: 0; }
-button, input { line-height: normal; }
+button { overflow: visible; }
 button, select { text-transform: none; }
 button, html input[type="button"],
 input[type="reset"], input[type="submit"] {
-   -webkit-appearance: button;
-   cursor: pointer;
+    -webkit-appearance: button;
+    cursor: pointer;
 }
 button[disabled], html input[disabled] { cursor: default; }
+button::-moz-focus-inner, input::-moz-focus-inner { border: 0; padding: 0; }
+input { line-height: normal; }
 input[type="checkbox"],
 input[type="radio"] { box-sizing: border-box; padding: 0; }
-input[type="search"] {
-   -webkit-appearance: textfield;
-   -moz-box-sizing: content-box;
-   -webkit-box-sizing: content-box;
-   box-sizing: content-box;
-}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button { height: auto; }
+input[type="search"] { -webkit-appearance: textfield; }
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-decoration { -webkit-appearance: none; }
-button::-moz-focus-inner,
-input::-moz-focus-inner { border: 0; padding: 0; }
-textarea { overflow: auto; vertical-align: top; }
-table { border-collapse: collapse; border-spacing: 0; }
+fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}
+legend { border: 0; padding: 0; }
+textarea { overflow: auto; }
+optgroup { font-weight: bold; }
+table{ border-collapse: collapse; border-spacing: 0; }
+td, th{ padding: 0; }
 
 
 /* ==========================================================================
@@ -276,6 +276,7 @@ h2 {
 
 h3 {
     font-size: 3rem;
+    letter-spacing: -0.6px;
 }
 
 h4 {
@@ -380,7 +381,7 @@ blockquote cite {
 blockquote cite a { font-weight: normal; }
 
 mark {
-    background-color: #FFC336;
+    background-color: #fdffb6;
 }
 
 code, tt {
@@ -391,6 +392,9 @@ code, tt {
     border: #E3EDF3 1px solid;
     background: #F7FAFB;
     border-radius: 2px;
+    -webkit-font-feature-settings: "liga" 0;
+    -moz-font-feature-settings: "liga" 0;
+    font-feature-settings: "liga" 0;
 }
 
 pre {
@@ -485,23 +489,79 @@ margin on the iframe, cause it breaks stuff. */
 .fluid-width-video-wrapper iframe {
     margin: 0;
 }
-/*
-img.emoji {
-  height: 1em;
-  width: 1em;
-  vertical-align: -.1em;
-  display: -webkit-inline-box;
-  left: 2%;
-  top: -35px;
+
+textarea, select, input {
+    width: 260px;
+    padding: 6px 9px;
+    margin: 0 0 5px 0;
+    outline: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 100;
+    line-height: 1.4em;
+    background: #fff;
+    border: #e7eef2 1px solid;
+    border-radius: 4px;
+    box-shadow: none;
+    -webkit-appearance: none;
 }
-*/
-img.emoji {
-   height: 1em;
-   width: 1em;
-   margin: 0 .05em 0 .1em;
-   vertical-align: -0.1em;
-   top: -35px;
+
+textarea {
+    width: 100%;
+    max-width: 340px;
+    min-width: 250px;
+    height: auto;
+    min-height: 80px;
 }
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="time"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+textarea:focus {
+    border: #bbc7cc 1px solid;
+    background: #fff;
+    outline: none;
+    outline-width: 0;
+}
+
+select {
+    width: 270px;
+    height: 30px;
+    line-height: 30px;
+}
+
+button {
+    min-height: 35px;
+    width: auto;
+    display: inline-block;
+    padding: 0.1rem 1.5rem;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px; // Hack because Firefox sucks ass.
+    line-height: 13px; // Hack because Firefox sucks ass.
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-shadow: none;
+    border-radius: 0.3rem;
+    border: rgba(0,0,0,0.05) 0.1em solid;
+    background: #5ba4e5;
+}
+
 
 /* ==========================================================================
    3. Utilities - These things get used a lot
@@ -758,7 +818,7 @@ body.nav-opened .nav {
     right: 30px;
     height: 38px;
     padding: 0 20px;
-    color: #111 !important;
+    color: #111 !important; /* Overides `.nav a:link, .nav a:visited` colour */
     text-align: center;
     font-size: 12px;
     font-family: "Open Sans", sans-serif;
@@ -788,7 +848,7 @@ body.nav-opened .nav {
     font-size: 34px;
     text-align: center;
     text-decoration: none;
-    color: tomato;
+    color: rgba(255,255,255,0.7);
     -webkit-transform: rotate(-90deg);
     -ms-transform: rotate(-90deg);
     transform: rotate(-90deg);
@@ -826,12 +886,12 @@ body.nav-opened .nav {
     display: none
 }
 
-/* Appears in the top right corner of your home page */
+/* Appears in the top left corner of your home page */
 .blog-logo {
     display: block;
     float: left;
-    background: none !important;
-    border: none !important;
+    background: none !important; /* Makes sure there is never a background */
+    border: none !important; /* Makes sure there is never a border */
 }
 
 .blog-logo img {
@@ -852,37 +912,63 @@ body.nav-opened .nav {
     float: right;
     height: 38px;
     padding: 0 15px;
-    border: #bfc8cd 1px solid;
+    border-style: solid;
+    border-width: 1px;
     opacity: 1;
-    color: #9EABB3;
     text-align: center;
     font-size: 12px;
     text-transform: uppercase;
     line-height: 35px;
     white-space: nowrap;
     border-radius: 3px;
-    background: rgba(0,0,0,0.1);
     transition: all 0.5s ease;
+}
+.menu-button:before {
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 6px;
+    position: relative;
+    top: 1px;
+}
+.menu-button:hover {
+    background: #fff;
 }
 .menu-button:focus {
     outline: 0;
 }
-.menu-button .burger {
-    font-size: 12px;
-    margin-right: 6px;
+
+/* When the navigation is closed */
+.nav-closed .menu-button {
+    color: #fff;
+    border-color: rgba(255, 255, 255, 0.6);
+}
+.nav-closed .menu-button:hover {
+    color: #222;
 }
 
-body.nav-opened .menu-button {
+/* When the navigation is closed and there is no cover image */
+.nav-closed .no-cover .menu-button {
+    border-color: #BFC8CD;
+    color: #9EABB3;
+}
+.nav-closed .no-cover .menu-button:hover {
+    border-color: #555;
+    color: #555;
+}
+
+/* When the navigation is opened */
+.nav-opened .menu-button {
     padding: 0 12px;
-    background: #111 !important;
-    border-color: #111 !important;
-    color: #fff !important;
+    background: #111;
+    border-color: #111;
+    color: #fff;
     -webkit-transform: translate3D(94px, 0, 0);
         -ms-transform: translate3D(94px, 0, 0);
             transform: translate3D(94px, 0, 0);
     transition: all 0.3s ease;
 }
-body.nav-opened .menu-button .word {
+
+.nav-opened .menu-button .word {
     opacity: 0;
     transition: all 0.3s ease;
 }
@@ -897,29 +983,8 @@ body.nav-opened .menu-button .word {
     border: none;
     background: linear-gradient(to bottom, rgba(0,0,0,0.2) 0%,rgba(0,0,0,0) 100%);
 }
-.no-cover .main-nav.overlay,
-.no-cover .menu-button {
+.no-cover .main-nav.overlay {
     background: none;
-}
-
-.main-nav.overlay a {
-    color: #fff;
-}
-
-.main-nav.overlay .menu-button {
-    border-color: rgba(255,255,255,0.6);
-}
-
-.main-nav.overlay a:hover {
-    color: #222;
-    border-color: #fff;
-    background: #fff;
-}
-
-/* Add a border to the buttons on hover */
-.menu-button:hover {
-    border-color: #555;
-    color: #555;
 }
 
 /* The details of your blog. Defined in ghost/settings/ */
@@ -956,11 +1021,6 @@ body.nav-opened .menu-button .word {
     color: rgba(0,0,0,0.5);
 }
 
-.no-cover .main-nav.overlay .menu-button {
-    color: rgba(0,0,0,0.4);
-    border-color: rgba(0,0,0,0.3);
-}
-
 /* Add subtle load-in animation for content on the home page */
 .home-template .page-title {
     -webkit-animation: fade-in-down 0.6s;
@@ -984,10 +1044,6 @@ body.nav-opened .menu-button .word {
     padding-bottom: 4rem;
     border-bottom: #EBF2F6 1px solid;
     word-wrap: break-word;
-    -moz-hyphens: auto;
-    -ms-hyphens: auto;
-    -webkit-hyphens: auto;
-    hyphens: auto;
 }
 
 /* Add a little circle in the middle of the border-bottom on our .post
@@ -1005,13 +1061,6 @@ body.nav-opened .menu-button .word {
     background: #FFF;
     border-radius: 100%;
     box-shadow: #FFF 0 0 0 5px;
-}
-
-.post.page{
-    border-bottom: none;
-}
-.post.page:after{
-    display: none;
 }
 
 body:not(.post-template) .post-title {
@@ -1111,6 +1160,7 @@ body:not(.post-template) .post-title {
     line-height: 1.5em;
 }
 
+
 /* ==========================================================================
    5. Single Post - When you click on an individual post
    ========================================================================== */
@@ -1156,7 +1206,7 @@ body:not(.post-template) .post-title {
    text column to break out. */
 .post-content img {
     display: block;
-    max-width: 100%;
+    max-width: 126%;
     height: auto;
     padding: 0.6em 0;
     /* Centers an image by (1) pushing its left edge to the
@@ -1170,11 +1220,30 @@ body:not(.post-template) .post-title {
     transform: translateX(-50%);
 }
 
+.footnotes {
+    font-style: italic;
+    font-size: 1.3rem;
+    line-height: 1.6em;
+}
+
+.footnotes li {
+    margin: 0.6rem 0;
+}
+
+.footnotes p {
+    margin: 0;
+}
+
+.footnotes p a:last-child {
+    text-decoration: none;
+}
+
+
 /* The author credit area after the post */
 .post-footer {
     position: relative;
     margin: 6rem 0 0 0;
-    padding: 6rem 0 0 0;
+    padding: 3rem 0 0 0;
     border-top: #EBF2F6 1px solid;
 }
 
@@ -1227,7 +1296,7 @@ body:not(.post-template) .post-title {
    links remain at a fixed width the whole time */
 .post-footer .share {
     position: absolute;
-    top: 6rem;
+    top: 3rem;
     right: 0;
     width: 140px;
 }
@@ -1526,14 +1595,141 @@ body:not(.post-template) .post-title {
     display: none;
 }
 
+
 /* ==========================================================================
-   7. Third Party Elements - Embeds from other services
+   7. Read More - Next/Prev Post Links
+   ========================================================================== */
+
+.read-next {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    margin-top: 10rem;
+}
+
+.read-next-story {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    min-width: 50%;
+    text-decoration: none;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    background: #222 no-repeat center center;
+    background-size: cover;
+    overflow: hidden;
+}
+.read-next-story:hover:before {
+    background: rgba(0,0,0,0.8);
+    transition: all 0.2s ease;
+}
+.read-next-story:hover .post:before {
+    color: #222;
+    background: #fff;
+    transition: all 0.2s ease;
+}
+
+.read-next-story:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.7);
+    transition: all 0.5s ease;
+}
+
+.read-next-story .post {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.read-next-story .post:before {
+    content: "Read This Next";
+    padding: 4px 10px 5px;
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    font-family: "Open Sans", sans-serif;
+    color: rgba(255,255,255,0.8);
+    border: rgba(255,255,255,0.5) 1px solid;
+    border-radius: 4px;
+    transition: all 0.5s ease;
+}
+.read-next-story.prev .post:before {
+    content: "You Might Enjoy";
+}
+
+.read-next-story h2 {
+    margin-top: 1rem;
+    color: #fff;
+}
+
+.read-next-story p {
+    margin: 0;
+    color: rgba(255,255,255,0.8);
+}
+
+/* Special styles for posts with no cover images */
+.read-next-story.no-cover {
+    background: #f5f8fa;
+}
+
+.read-next-story.no-cover:before {
+    display: none;
+}
+
+.read-next-story.no-cover .post:before {
+    color: rgba(0,0,0,0.5);
+    border-color: rgba(0,0,0,0.2);
+}
+
+.read-next-story.no-cover h2 {
+    color: rgba(0,0,0,0.8);
+}
+
+.read-next-story.no-cover p {
+    color: rgba(0,0,0,0.5);
+}
+
+/* if there are two posts without covers, put a border between them */
+.read-next-story.no-cover + .read-next-story.no-cover {
+    border-left: rgba(0,0,100,0.04) 1px solid;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/* Correctly position site-footer when next to the .read-next container */
+.read-next + .site-footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+}
+
+/* ==========================================================================
+   8. Third Party Elements - Embeds from other services
    ========================================================================== */
 
 /* Github */
 .gist table {
     margin: 0;
     font-size: 1.4rem;
+    text-rendering: auto;
 }
 .gist td {
     line-height: 1.4;
@@ -1547,8 +1743,9 @@ body:not(.post-template) .post-title {
     margin-bottom: 1.75em;
 }
 
+
 /* ==========================================================================
-   8. Pagination - Tools to let you flick between pages
+   9. Pagination - Tools to let you flick between pages
    ========================================================================== */
 
 /* The main wrapper for our pagination links */
@@ -1634,14 +1831,71 @@ body:not(.post-template) .post-title {
 
 
 /* ==========================================================================
-   9. Footer - The bottom of every page
+   10. Subscribe - Generate those email subscribers
+   ========================================================================== */
+
+.gh-subscribe {
+    border: #e7eef2 1px solid;
+    padding: 3rem;
+    margin-top: 3rem;
+    text-align: center;
+    background: #f5f8fa;
+    border-radius: 5px;
+}
+
+.gh-subscribe-title {
+    margin-bottom: 0;
+    font-size: 2.4rem
+}
+
+.gh-subscribe p {
+    margin-top: 0;
+    font-size: 1.5rem;
+}
+
+.gh-subscribe form {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 0 0;
+}
+
+.gh-subscribe .form-group {
+    flex-grow: 1;
+    max-width: 300px;
+}
+
+.gh-subscribe .subscribe-email {
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    border-radius: 4px 0 0 4px;
+    transition: all ease 0.5s;
+}
+
+.gh-subscribe .subscribe-email:focus {
+    border: #5ba4e5 1px solid;
+    transition: all ease 0.2s;
+}
+
+.gh-subscribe button {
+    margin-left: -1px;
+    border-radius: 0 4px 4px 0;
+}
+
+.gh-subscribe-rss {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.4em;
+}
+
+/* ==========================================================================
+   11. Footer - The bottom of every page
    ========================================================================== */
 
 .site-footer {
     position: relative;
     margin: 8rem 0 0 0;
-    padding: 0.5rem 15px;
-    /*border-top: #EBF2F6 1px solid;*/
+    padding: 1rem 15px;
     font-family: "Open Sans", sans-serif;
     font-size: 1rem;
     line-height: 1.75em;
@@ -1655,7 +1909,7 @@ body:not(.post-template) .post-title {
 }
 
 .site-footer a:hover {
-    color: #50585D;
+    border-bottom: #bbc7cc 1px solid;
 }
 
 .poweredby {
@@ -1673,7 +1927,7 @@ body:not(.post-template) .post-title {
 
 
 /* ==========================================================================
-   10. Media Queries - Smaller than 900px
+   12. Media Queries - Smaller than 900px
    ========================================================================== */
 
 @media only screen and (max-width: 900px) {
@@ -1789,11 +2043,41 @@ body:not(.post-template) .post-title {
         padding: 0;
     }
 
+    .gh-subscribe {
+        padding: 2rem;
+    }
+
+    .gh-subscribe-title {
+        font-size: 2rem
+    }
+
+    .gh-subscribe p {
+        font-size: 1.4rem;
+    }
+
+    .read-next {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        margin-top: 4rem;
+    }
+
+    .read-next p {
+        display: none;
+    }
+
+    .read-next-story.no-cover + .read-next-story.no-cover {
+        border-top: rgba(0,0,100,0.06) 1px solid;
+        border-left: none;
+    }
+
 }
 
 
 /* ==========================================================================
-   11. Media Queries - Smaller than 500px
+   13. Media Queries - Smaller than 500px
    ========================================================================== */
 
 @media only screen and (max-width: 500px) {
@@ -1829,7 +2113,7 @@ body:not(.post-template) .post-title {
     .menu-button {
         padding: 0 5px;
         border-radius: 0;
-        border-color: transparent;
+        border-width: 0;
         color: #2e2e2e;
         background: transparent;
     }
@@ -1839,8 +2123,8 @@ body:not(.post-template) .post-title {
         background: none;
     }
     body.nav-opened .menu-button {
-        background: none !important;
-        border: transparent !important;
+        background: none;
+        border: transparent;
     }
 
     .main-nav.overlay a:hover {
@@ -1958,11 +2242,6 @@ body:not(.post-template) .post-title {
         font-size: 2.5rem;
     }
 
-    .post-template .post {
-        padding-bottom: 0;
-        margin-bottom: 0;
-    }
-
     .post-template .site-footer {
         margin-top: 0;
     }
@@ -1971,7 +2250,7 @@ body:not(.post-template) .post-title {
         padding: 0;
         width: calc(100% + 32px); /* expand with to image + margins */
         min-width: 0;
-        max-width: 100%; /* fallback when calc doesn't work */
+        max-width: 112%; /* fallback when calc doesn't work */
     }
 
     .post-meta {
@@ -2036,6 +2315,10 @@ body:not(.post-template) .post-title {
         height: 20vh;
     }
 
+    .post-footer .author-image {
+        top: -60px;
+    }
+
     .author-profile .author-image {
         margin-top: -70px;
     }
@@ -2048,11 +2331,28 @@ body:not(.post-template) .post-title {
         display: none;
     }
 
+    .gh-subscribe {
+        padding: 15px;
+    }
+
+    .gh-subscribe form {
+        margin-top: 10px;
+    }
+
+    .read-next {
+        margin-top: 2rem;
+        margin-bottom: -37px;
+    }
+
+    .read-next .post {
+        width: 100%;
+    }
+
 }
 
 
 /* ==========================================================================
-   12. Animations
+   14. Animations
    ========================================================================== */
 
 /* Used to fade in title/desc on the home page */
@@ -2097,55 +2397,21 @@ body:not(.post-template) .post-title {
     }
 }
 @keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
+    0%, 10%, 25%, 40%, 50% {
         -webkit-transform: translateY(0) rotate(-90deg);
                 transform: translateY(0) rotate(-90deg);
     }
-    40% {
+    20% {
         -webkit-transform: translateY(-10px) rotate(-90deg);
                 transform: translateY(-10px) rotate(-90deg);
     }
-    60% {
+    30% {
         -webkit-transform: translateY(-5px) rotate(-90deg);
                 transform: translateY(-5px) rotate(-90deg);
     }
 }
 
-/* by abr4xas 03/12/2015 */
-.blink_me {
-    -webkit-animation-name: blinker;
-    -webkit-animation-duration: 1s;
-    -webkit-animation-timing-function: linear;
-    -webkit-animation-iteration-count: infinite;
 
-    -moz-animation-name: blinker;
-    -moz-animation-duration: 1s;
-    -moz-animation-timing-function: linear;
-    -moz-animation-iteration-count: infinite;
-
-    animation-name: blinker;
-    animation-duration: 1s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-}
-
-@-moz-keyframes blinker {
-    0% { opacity: 1.0; }
-    50% { opacity: 0.0; }
-    100% { opacity: 1.0; }
-}
-
-@-webkit-keyframes blinker {
-    0% { opacity: 1.0; }
-    50% { opacity: 0.0; }
-    100% { opacity: 1.0; }
-}
-
-@keyframes blinker {
-    0% { opacity: 1.0; }
-    50% { opacity: 0.0; }
-    100% { opacity: 1.0; }
-}
 /* ==========================================================================
    End of file. Animations should be the last thing here. Do not add stuff
    below this point, or it will probably fuck everything up.

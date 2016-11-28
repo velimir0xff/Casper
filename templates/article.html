@@ -18,16 +18,28 @@
         </section>
         <footer class="post-footer">
             <figure class="author-image">
-                <a class="img" href="{{ article.author.url }}" style="background-image: url('{% if article.author_pic_url %}{{ article.author_pic_url }}{% else %}{{ AUTHOR_PIC_URL }}{% endif %}')"><span class="hidden">{{ article.author }}'s Picture</span></a>
+                <a class="img" href="{{ article.author.url }}" style="background-image: url('{{ article.author.avatar_url }}')">
+                    <span class="hidden">{{ article.author }}'s Picture</span>
+                </a>
             </figure>
             <section class="author">
                 <h4>
                     <a href="{{ article.author.url }}">{{ article.author.name }}</a>
                 </h4>
-                <p>{% if article.author_bio %}{{ article.author_bio }}{% else %}{{ AUTHOR_BIO }}{% endif %}</p>
+                <p>{{ article.author.bio }}</p>
                 <div class="author-meta">
-                    <span class="author-location icon-location">{% if article.location %}{{ article.location }}{% else %}{{ AUTHOR_LOCATION }}{% endif %}</span>
-                    {% if article.author_url %}<span class="author-link icon-link"><a href="{{ article.author_url }}">{{ article.author_url }}</a></span>{% endif %}
+                    {% if article.location %}
+                        {% set location = article.location %}
+                    {% else %}
+                        {% set location = article.author.location %}
+                    {% endif %}
+
+                    <span class="author-location icon-location">{{ location }}</span>
+                    {% if article.author.url %}
+                        <span class="author-link icon-link">
+                            <a href="{{ article.author.url }}">{{ article.author.name }}</a>
+                        </span>
+                    {% endif %}
                 </div>
             </section>
             <section class="share">

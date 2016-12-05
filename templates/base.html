@@ -101,7 +101,16 @@
     <meta itemprop="inLanguage" content="{{ DEFAULT_LANG }}">
     {% include 'navigation.html' %}
     <div class="site-wrapper">
-        <header class="main-header {% block header_type %}post-head{% endblock %}" style="background-image: url('{{ SITEURL }}/{% block header_image %}{{ DEFAULT_HEADER_IMAGE }}{% endblock %}');" itemscope itemtype="http://schema.org/WPHeader">
+        <header class="main-header
+					   {% block header_type %}post-head{% endblock %}
+				{% if self.header_image() | trim != "" %}
+				    "
+				    style="background-image: url('{{ SITEURL }}/{% block header_image %}{% endblock %}');"
+				{% else %}
+				    no-cover"
+				{% endif %}
+				itemscope
+				itemtype="http://schema.org/WPHeader">
             <nav class="main-nav overlay clearfix">
                 {% if SITE_LOGO %}
                 <a href="{{ SITEURL }}/index.html" class="blog-logo">

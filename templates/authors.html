@@ -1,5 +1,17 @@
 {% extends "base.html" %}
 {% block title %}{{ SITENAME }} - Authors{% endblock %}
+{% block metas %}
+    <meta property="fb:app_id" content="{{ FACEBOOK_APP_ID }}" />
+    <meta property="og:site_name" content="{{ SITENAME }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{{ SITENAME }} | authors" />
+    <meta property="og:url" content="{{ SITEURL }}/{{ output_file }}" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="{{ SITENAME }} | authors" />
+    <meta name="twitter:url" content="{{ SITEURL }}/{{ output_file }}" />
+    <meta name="twitter:site" content="{{ AUTHORS[AUTHOR]['twitter'] }}" />
+    <meta name="twitter:description" content="{{ SITENAME }} all authors" />
+{% endblock metas %}
 {% block content %}
 <article class="post" itemscope="" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
     <header>

@@ -1,4 +1,16 @@
 {% extends "base.html" %}
+{% block metas %}
+    <meta property="fb:app_id" content="{{ FACEBOOK_APP_ID }}" />
+    <meta property="og:site_name" content="{{ SITENAME }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{{ SITENAME }} | categories" />
+    <meta property="og:url" content="{{ SITEURL }}/{{ output_file }}" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="{{ SITENAME }} | categories" />
+    <meta name="twitter:url" content="{{ SITEURL }}/{{ output_file }}" />
+    <meta name="twitter:site" content="{{ AUTHORS[AUTHOR]['twitter'] }}" />
+    <meta name="twitter:description" content="{{ SITENAME }} all categories" />
+{% endblock metas %}
 {% block content %}
 <ul>
 {% for category, articles in categories %}

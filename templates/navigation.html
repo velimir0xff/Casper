@@ -7,14 +7,14 @@
         {% if index %}{% set current_url = '/' %}{% endif %}
         {% if archives %}{% set current_url = '/archives' %}{% endif %}
         {% if page %}{% set current_url = page.url %}{% endif %}
-        <li class="{% if current_url == '/' %}nav-current{% endif %}" role="presentation"><a  href="{{ SITEURL }}/index.html" title="{{ SITENAME }}" itemprop="name" itemprop="significantLink">Home</a></li>
+        <li class="{% if current_url == '/' %}nav-current{% endif %}" role="presentation"><a  href="{{ SITEURL }}" title="{{ SITENAME }}" itemprop="name" itemprop="significantLink">home</a></li>
         {% for p in PAGES %}
             <li class="{% if current_url == p.url %}nav-current{% endif %}" role="presentation"><a  href="{{ SITEURL }}/{{ p.url }}" title="{{ SITENAME }} |{{ p.title }}" itemprop="name" itemprop="significantLink">{{ p.title }}</a></li>
         {% endfor %}
         {% for c, articles in categories %}
             <li class="{% if current_url == c.url %}nav-current{% endif %}" role="presentation"><a  href="{{ SITEURL }}/{{ c.url }}" title="{{ SITENAME }} |{{ c.name }}" itemprop="name" itemprop="significantLink">{{ c.name }}</a></li>
         {% endfor %}
-            <li class="{% if current_url == '/archives' %}nav-current{% endif %}" role="presentation"><a  href="{{ SITEURL }}/archives.html" title="{{ SITENAME }} | Archives" itemprop="name" itemprop="significantLink">Archives</a></li>
+            <li class="{% if current_url == '/archives' %}nav-current{% endif %}" role="presentation"><a  href="{{ SITEURL }}/archives.html" title="{{ SITENAME }} | archives" itemprop="name" itemprop="significantLink">archives</a></li>
     </ul>
     {% if FEED_RSS %}<a class="subscribe-button icon-feed" href='/{{ FEED_RSS }}'  target='blank'>Subscribe</a>{% endif %}
 </nav>

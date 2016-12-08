@@ -1,6 +1,18 @@
 {% extends "base.html" %}
 {% block header_type %}tag-head{% endblock %}
 {% block header_image %}{{ DEFAULT_HEADER_IMAGE }}{% endblock %}
+{% block metas %}
+    <meta property="fb:app_id" content="{{ FACEBOOK_APP_ID }}" />
+    <meta property="og:site_name" content="{{ SITENAME }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{{ SITENAME }} | {{ category }}" />
+    <meta property="og:url" content="{{ SITEURL }}/{{ output_file }}" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="{{ SITENAME }} | {{ category }}" />
+    <meta name="twitter:url" content="{{ SITEURL }}/{{ output_file }}" />
+    <meta name="twitter:site" content="{{ AUTHORS[AUTHOR]['twitter'] }}" />
+    <meta name="twitter:description" content="articles in category {{ category }}" />
+{% endblock metas %}
 {% block scroll %}{% endblock %}
 {% block template_type %}tag-template{% endblock %}
 {% block header_title %}
@@ -25,7 +37,7 @@
                 <a class="read-more" itemprop="url" href="{{ SITEURL }}/{{ article.url}}" title="Read this article" rel="bookmark"> &raquo;</a>
             </section>
             <footer class="post-meta">
-                <img class="author-thumb" src="{{ article.author.avatar_url }}" alt="{{ article.author }}" nopin="nopin">
+                <img class="author-thumb" src="/{{ article.author.picture }}" alt="{{ article.author }}" nopin="nopin">
                 <a href="{{ SITEURL }}/{{ article.author.url }}">{{ article.author }}</a> on {% for tag in article.tags %}<a href="{{ SITEURL }}/{{ tag.url }}">{{ tag.name | title }}{% if not loop.last %}, {% endif %}</a>{% endfor %}
                 <time class="post-date" itemprop="datePublished" datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
             </footer>

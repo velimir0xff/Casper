@@ -1,5 +1,16 @@
 {% extends "base.html" %}
 {% block title %}{{ page.title }}{%endblock%}
+{% block metas %}
+    {% for tag in page.og_tags %}
+        <meta property="{{tag[0]}}" content="{{tag[1]|striptags|e}}" />
+    {% endfor %}
+    {% for tag in page.twitter_tags %}
+        <meta name="{{tag[0]}}" content="{{tag[1]|striptags|e}}" />
+    {% endfor %}
+    {% for tag in page.meta_tags %}
+        <meta name="{{tag[0]}}" content="{{tag[1]|striptags|e}}" />
+    {% endfor %}
+{% endblock metas %}
 {% block scroll %}{% endblock %}
 {% block header_title %}{% endblock %}
 {% block header_type %}post-head no-cover{% endblock %}

@@ -11,7 +11,7 @@ You will need to install the `neighbors` and `authors` Pelican plugin for this t
 * `DEFAULT_HEADER_IMAGE` = The default header image to used if no other header images specified (use `header_image` in article meta for header image).
 * `ARCHIVE_HEADER_IMAGE` = The header image used on archive page.
 * `TWITTER_USERNAME` = Used by meta tags and share buttons on article.
-* `AUTHORS` = Map of `author name` -> `author info`. `avatar_url`, `bio` and `location` is a minimal set of attributes, which has to be set for the theme. You can find example of `AUTHORS` definition in [plugin's repo](https://github.com/velimir0xff/pelican-plugins/tree/authors-plugin/authors)
+* `AUTHORS` = Map of `author name` -> `author info`. `picture`, `bio` and `location` is a minimal set of attributes, which has to be set for the theme. You can find example of `AUTHORS` definition in [plugin's repo](https://github.com/velimir0xff/pelican-plugins/tree/authors-plugin/authors)
 
 
 ## Demo

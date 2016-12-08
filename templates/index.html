@@ -1,6 +1,17 @@
 {% extends "base.html" %}
 {% block header_type %}{% endblock %}
 {% block header_image %}{{ DEFAULT_HEADER_IMAGE }}{% endblock %}
+{% block metas %}
+    {% for tag in og_tags %}
+        <meta property="{{tag[0]}}" content="{{tag[1]|striptags|e}}" />
+    {% endfor %}
+    {% for tag in twitter_tags %}
+        <meta name="{{tag[0]}}" content="{{tag[1]|striptags|e}}" />
+    {% endfor %}
+    {% for tag in meta_tags %}
+        <meta name="{{tag[0]}}" content="{{tag[1]|striptags|e}}" />
+    {% endfor %}
+{% endblock metas %}
 {% block content %}
 <main id="content" class="content" role="main" itemprop="mainContentOfPage" itemscope="" itemtype="http://schema.org/Blog">
     <div>
@@ -20,7 +31,7 @@
                 <a class="read-more" itemprop="url" href="{{ SITEURL }}/{{ article.url}}" title="Read this article" rel="bookmark"> &raquo;</a>
             </section>
             <footer class="post-meta">
-                <img class="author-thumb" src="{{ article.author.avatar_url }}" alt="{{ article.author }}" nopin="nopin">
+                <img class="author-thumb" src="/{{ article.author.picture }}" alt="{{ article.author }}" nopin="nopin">
                 <a href="{{ article.author.url }}">{{ article.author }}</a> on {% for tag in article.tags %}<a href="{{ tag.url }}">{{ tag.name | title }}{% if not loop.last %}, {% endif %}</a>{% endfor %}
                 <time class="post-date" itemprop="datePublished" datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
             </footer>        

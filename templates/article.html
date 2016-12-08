@@ -1,6 +1,17 @@
 {% extends "base.html" %}
 {% block header_title %}{% endblock %}
-{% block header_image %}{% if article.header_image %}{{ article.header_image }}{% else %}{% endif %}{% endblock %}
+{% block header_image %}{% if article.image %}{{ article.image }}{% endif %}{% endblock %}
+{% block metas %}
+    {% for tag in article.og_tags %}
+        <meta property="{{tag[0]}}" content="{{tag[1]|striptags|e}}" />
+    {% endfor %}
+    {% for tag in article.twitter_tags %}
+        <meta name="{{tag[0]}}" content="{{tag[1]|striptags|e}}" />
+    {% endfor %}
+    {% for tag in article.meta_tags %}
+        <meta name="{{tag[0]}}" content="{{tag[1]|striptags|e}}" />
+    {% endfor %}
+{% endblock metas %}
 {% block scroll %}{% endblock %}
 {% block template_type %}post-template{% endblock %}
 {% block content %}
@@ -18,7 +29,7 @@
         </section>
         <footer class="post-footer">
             <figure class="author-image">
-                <a class="img" href="{{ article.author.url }}" style="background-image: url('{{ article.author.avatar_url }}')">
+                <a class="img" href="{{ article.author.url }}" style="background-image: url('/{{ article.author.picture }}')">
                     <span class="hidden">{{ article.author }}'s Picture</span>
                 </a>
             </figure>

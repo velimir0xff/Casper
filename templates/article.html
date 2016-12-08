@@ -1,6 +1,9 @@
 {% extends "base.html" %}
 {% block header_title %}{% endblock %}
 {% block header_image %}{% if article.image %}{{ article.image }}{% endif %}{% endblock %}
+{% block canonical %}
+    <link rel="canonical" href="{{ SITEURL }}/{{ article.url }}" />
+{% endblock canonical %}
 {% block metas %}
     {% for tag in article.og_tags %}
         <meta property="{{tag[0]}}" content="{{tag[1]|striptags|e}}" />

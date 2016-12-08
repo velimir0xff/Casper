@@ -1,15 +1,18 @@
 {% extends "base.html" %}
 {% block header_type %}tag-head{% endblock %}
 {% block header_image %}{{ DEFAULT_HEADER_IMAGE }}{% endblock %}
+{% block canonical %}
+    <link rel="canonical" href="{{ SITEURL }}/{{ tag.url }}" />
+{% endblock canonical %}
 {% block metas %}
     <meta property="fb:app_id" content="{{ FACEBOOK_APP_ID }}" />
     <meta property="og:site_name" content="{{ SITENAME }}" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="{{ SITENAME }} | {{ tag }}" />
-    <meta property="og:url" content="{{ SITEURL }}/{{ output_file }}" />
+    <meta property="og:url" content="{{ SITEURL }}/{{ tag.url }}" />
     <meta name="twitter:card" content="summary" />
     <meta name="twitter:title" content="{{ SITENAME }} | {{ tag }}" />
-    <meta name="twitter:url" content="{{ SITEURL }}/{{ output_file }}" />
+    <meta name="twitter:url" content="{{ SITEURL }}/{{ tag.url }}" />
     <meta name="twitter:site" content="{{ AUTHORS[AUTHOR]['twitter'] }}" />
     <meta name="twitter:description" content="articles about {{ tag }}" />
 {% endblock metas %}

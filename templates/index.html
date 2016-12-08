@@ -1,6 +1,9 @@
 {% extends "base.html" %}
 {% block header_type %}{% endblock %}
 {% block header_image %}{{ DEFAULT_HEADER_IMAGE }}{% endblock %}
+{% block canonical %}
+    <link rel="canonical" href="{{ SITEURL }}" />
+{% endblock canonical %}
 {% block metas %}
     {% for tag in og_tags %}
         <meta property="{{tag[0]}}" content="{{tag[1]|striptags|e}}" />

@@ -1,6 +1,9 @@
 {% extends "base.html" %}
 {% block header_image %}{% if ARCHIVE_HEADER_IMAGE %}{{ ARCHIVE_HEADER_IMAGE }}{% else %}{{ DEFAULT_HEADER_IMAGE }}{% endif %}{% endblock %}
 {% block header_type %}author-head{% endblock %}
+{% block canonical %}
+    <link rel="canonical" href="{{ SITEURL }}/{{ author.url }}" />
+{% endblock canonical %}
 {% block metas %}
     {% for tag in author.og_tags %}
         <meta property="{{tag[0]}}" content="{{tag[1]|striptags|e}}" />

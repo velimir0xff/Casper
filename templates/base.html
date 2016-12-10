@@ -9,7 +9,7 @@
     <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
 
     <meta name="description" content="{{ SITE_DESCRIPTION }}" />
-	<meta name="generator" content="pelican" />
+    <meta name="generator" content="pelican" />
 
     <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png" />
     <link rel="icon" type="image/png" href="/images/favicons/favicon-32x32.png" sizes="32x32" />
@@ -21,11 +21,29 @@
 
     <meta name="msapplication-notification" content="frequency=30;polling-uri=http://notifications.buildmypinnedsite.com/?feed={{ SITEURL }}/{{ FEED_RSS }}&amp;id=1;polling-uri2=http://notifications.buildmypinnedsite.com/?feed={{ SITEURL }}/{{ FEED_RSS }}&amp;id=2;polling-uri3=http://notifications.buildmypinnedsite.com/?feed={{ SITEURL }}/{{ FEED_RSS }}&amp;id=3;polling-uri4=http://notifications.buildmypinnedsite.com/?feed={{ SITEURL }}/{{ FEED_RSS }}&amp;id=4;polling-uri5=http://notifications.buildmypinnedsite.com/?feed={{ SITEURL }}/{{ FEED_RSS }}&amp;id=5;cycle=1" />
 
-	{% block canonical %}
-        <link rel="canonical" href="{{ SITEURL }}/{{ output_file }}" />	
+    {% block canonical %}
+        <link rel="canonical" href="{{ SITEURL }}/{{ output_file }}" /> 
     {% endblock canonical %}
 
-	{% block metas %}{% endblock metas %}
+    <script type="application/ld+json">
+    {%- block ld_json %}
+        {
+            "@context": "http://schema.org",
+            "@type": "WebPage",
+            "name": "{{ SITENAME }}",
+            "url" : "{{ SITEURL }}/{{ output_file }}",
+            {% if self.header_image() | trim != "" -%}
+                "image": "{{ SITEURL }}/{% block header_image %}{% endblock %}",
+            {% else -%}
+                "image": "{{ SITEURL }}/{{ DEFAULT_HEADER_IMAGE }}",
+            {% endif %}
+            "description": "{{ SITE_DESCRIPTION }}",
+            "inLanguage": "en"
+        }
+    {%- endblock ld_json %}
+	</script>
+
+    {% block metas %}{% endblock metas %}
 
     {% if FEED_RSS %}
         <link href="{{ FEED_RSS }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
@@ -35,24 +53,18 @@
     <link rel="stylesheet" type="text/css" href="{{ SITEURL }}/theme/css/highlight.min.css" />
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
 </head>
-<body class="{% block template_type %}home-template{% endblock %} nav-closed" itemscope itemtype="http://schema.org/WebPage">
-    <meta itemprop="name" content="{{ SITENAME }}" />
-    <meta itemprop="url" content="{{ SITEURL }}" />
-    <meta itemprop="headline" content="{{ SITENAME }} || {{ TAG_LINE }}" />
-    <meta itemprop="description about" content="{{ SITE_DESCRIPTION }}" />
-    <meta itemprop="inLanguage" content="{{ DEFAULT_LANG }}" />
+<body class="{% block template_type %}home-template{% endblock %} nav-closed">
     {% include 'navigation.html' %}
     <div class="site-wrapper">
         <header class="main-header
-					   {% block header_type %}post-head{% endblock %}
-				{% if self.header_image() | trim != "" %}
-				    "
-				    style="background-image: url('{{ SITEURL }}/{% block header_image %}{% endblock %}');"
-				{% else %}
-				    no-cover"
-				{% endif %}
-				itemscope
-				itemtype="http://schema.org/WPHeader">
+                       {% block header_type %}post-head{% endblock %}
+                {% if self.header_image() | trim != "" %}
+                    "
+                    style="background-image: url('{{ SITEURL }}/{{ self.header_image() }}');"
+                {% else %}
+                    no-cover"
+                {% endif %}
+                >
             <nav class="main-nav overlay clearfix">
                 {% if SITE_LOGO %}
                 <a href="{{ SITEURL }}/index.html" class="blog-logo">
@@ -67,8 +79,8 @@
             <div class="vertical">
                 <div class="main-header-content inner">
                     {% block header_title %}
-                    <h1 class="page-title" itemprop="headline">{{ SITENAME }}</h1>
-                    <h2 class="page-description" itemprop="description">{{TAG_LINE}}</h2>
+                    <h1 class="page-title">{{ SITENAME }}</h1>
+                    <h2 class="page-description">{{TAG_LINE}}</h2>
                     {% endblock %}
                 </div>
             </div>
@@ -80,9 +92,9 @@
         </header>
     {% block content %}
     {% endblock %}
-        <footer class="site-footer clearfix" role="contentinfo" itemscope itemtype="http://schema.org/WPFooter">
+        <footer class="site-footer clearfix" role="contentinfo">
             <section class="copyright">
-                <a itemprop="url" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" class="tooltip" data-tooltip="CC BY-NC-SA" target="_blank" rel="noopener">
+                <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/" class="tooltip" data-tooltip="CC BY-NC-SA" target="_blank" rel="noopener">
                 CC Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
             </section>
             <section class="poweredby">Proudly published with <a href="https://getpelican.org">Pelican</a></section>

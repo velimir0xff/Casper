@@ -4,6 +4,7 @@
 {% block canonical %}
     <link rel="canonical" href="{{ SITEURL }}/{{ article.url }}" />
 {% endblock canonical %}
+{% block ld_json %}{{ article.ld_json }}{% endblock ld_json %}
 {% block metas %}
     {% for tag in article.og_tags %}
         <meta property="{{tag[0]}}" content="{{tag[1]|striptags|e}}" />
@@ -19,11 +20,11 @@
 {% block template_type %}post-template{% endblock %}
 {% block content %}
 <main id="content" class="content" role="main">
-    <article class="post" itemscope="" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+    <article class="post">
         <header class="post-header">
-            <h1 class="post-title" itemprop="headline">{{ article.title|striptags }}</h1>
+            <h1 class="post-title">{{ article.title|striptags }}</h1>
             <section class="post-meta">
-                <time class="post-date" itemprop="datePublished" datetime="{{ article.date|strftime('%YYYY-%MM-%DD') }}">{{ article.date|strftime('%A, %B %d, %Y') }}</time>
+                <time class="post-date" datetime="{{ article.date|strftime('%YYYY-%MM-%DD') }}">{{ article.date|strftime('%A, %B %d, %Y') }}</time>
                 on {% for tag in article.tags %}<a href="{{ tag.url }}">{{ tag.name | title }}{% if not loop.last %}, {% endif %}</a>{% endfor %}
             </section>
         </header>
@@ -38,7 +39,7 @@
             </figure>
             <section class="author">
                 <h4>
-                    <a href="{{ article.author.url }}">{{ article.author.name }}</a>
+                    <a href="{{ article.author.url }}">{{ article.author.first_name }} {{ article.author.last_name }}</a>
                 </h4>
                 <p>{{ article.author.bio }}</p>
                 <div class="author-meta">

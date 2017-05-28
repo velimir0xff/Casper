@@ -8,7 +8,7 @@
         {% if archives %}{% set current_url = '/archives' %}{% endif %}
         {% if page %}{% set current_url = page.url %}{% endif %}
         <li class="{% if current_url == '/' %}nav-current{% endif %}" role="presentation"><a  href="{{ SITEURL }}" title="{{ SITENAME }}">home</a></li>
-        {% for p in PAGES %}
+        {% for p in pages %}
             <li class="{% if current_url == p.url %}nav-current{% endif %}" role="presentation"><a  href="{{ SITEURL }}/{{ p.url }}" title="{{ SITENAME }} |{{ p.title }}">{{ p.title }}</a></li>
         {% endfor %}
         {% for c, articles in categories %}

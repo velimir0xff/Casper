@@ -1743,6 +1743,11 @@ body:not(.post-template) .post-title {
     margin-bottom: 1.75em;
 }
 
+/* asciinema */
+.asciicast {
+    text-align: center;
+}
+
 
 /* ==========================================================================
    9. Pagination - Tools to let you flick between pages
